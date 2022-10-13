@@ -55,6 +55,7 @@ public class SalesforceChatModule extends KrollModule
 		String BUTTON_ID = "";
 		String LIVE_AGENT_POD = ""; 
 
+		// Ti events "salesforce_chat:session_error", "salesforce_chat:session_end", "salesforce_chat:session_state""
 		try {
 			if(args.containsKey("orgId")){
 				ORG_ID = args.getString("orgId");
