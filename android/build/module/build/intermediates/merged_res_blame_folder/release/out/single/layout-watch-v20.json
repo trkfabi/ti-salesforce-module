@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    }
+]

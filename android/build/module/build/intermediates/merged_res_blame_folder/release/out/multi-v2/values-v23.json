@@ -1,0 +1,166 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/fabi/.gradle/caches/transforms-3/b6b6d645bd41ae68af22871a148e4fee/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "3835",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "3980"
+                    }
+                },
+                {
+                    "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
+                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                    },
+                    "to": {
+                        "startLines": "67,70,73,78,82,85,88,91,96,99,103",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4483,4699,4909,5229,5466,5673,5880,6083,6415,6617,6882",
+                        "endLines": "69,72,77,81,84,87,90,95,98,102,106",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "4694,4904,5224,5461,5668,5875,6078,6410,6612,6877,7150"
+                    }
+                },
+                {
+                    "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,12,26,40,41,42,45,49,50,51,52",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,798,1682,2578,2697,2824,3046,3270,3385,3492,3605",
+                        "endLines": "2,3,4,5,25,39,40,41,44,48,49,50,51,55",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1677,2573,2692,2819,3041,3265,3380,3487,3600,3830"
+                    }
+                },
+                {
+                    "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,200,366",
+                        "endLines": "4,7,15",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "195,361,859"
+                    },
+                    "to": {
+                        "startLines": "6,9,59",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "487,632,3985",
+                        "endLines": "8,11,66",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "627,793,4478"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/fabi/.gradle/caches/transforms-3/b6b6d645bd41ae68af22871a148e4fee/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "3835",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "3980"
+                    }
+                },
+                {
+                    "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
+                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                    },
+                    "to": {
+                        "startLines": "67,70,73,78,82,85,88,91,96,99,103",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4483,4699,4909,5229,5466,5673,5880,6083,6415,6617,6882",
+                        "endLines": "69,72,77,81,84,87,90,95,98,102,106",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "4694,4904,5224,5461,5668,5875,6078,6410,6612,6877,7150"
+                    }
+                },
+                {
+                    "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,12,26,40,41,42,45,49,50,51,52",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,798,1682,2578,2697,2824,3046,3270,3385,3492,3605",
+                        "endLines": "2,3,4,5,25,39,40,41,44,48,49,50,51,55",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1677,2573,2692,2819,3041,3265,3380,3487,3600,3830"
+                    }
+                },
+                {
+                    "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,200,366",
+                        "endLines": "4,7,15",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "195,361,859"
+                    },
+                    "to": {
+                        "startLines": "6,9,59",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "487,632,3985",
+                        "endLines": "8,11,66",
+                        "endColumns": "9,9,9",
+                        "endOffsets": "627,793,4478"
+                    }
+                }
+            ]
+        }
+    ]
+}

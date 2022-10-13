@@ -1,0 +1,156 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: arm64-v8a",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 120180342
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/.cxx/Release/1u6y24t4/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -491250865
+  },
+  {
+    "level_": 0,
+    "message_": "- a dependent build file changed",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -489530522
+  },
+  {
+    "level_": 0,
+    "message_": "  - /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -174236082
+  },
+  {
+    "level_": 0,
+    "message_": "keeping json folder \u0027/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/.cxx/Release/1u6y24t4/arm64-v8a\u0027 but regenerating project",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -664077710
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild Executable : /Users/fabi/Library/Android/sdk/ndk/21.4.7075529/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003d/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/cxx/Release/1u6y24t4/obj\nNDK_LIBS_OUT\u003d/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/cxx/Release/1u6y24t4/lib\nAPP_CPPFLAGS+\u003d-std\u003dc++14\nAPP_STL:\u003dc++_shared\n-j8\n--output-sync\u003dnone\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1143317530
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : /Users/fabi/Library/Android/sdk/ndk/21.4.7075529/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003d/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/cxx/Release/1u6y24t4/obj\nNDK_LIBS_OUT\u003d/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/cxx/Release/1u6y24t4/lib\nAPP_CPPFLAGS+\u003d-std\u003dc++14\nAPP_STL:\u003dc++_shared\n-j8\n--output-sync\u003dnone\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1770223929
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1424425104
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1005695626
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/.cxx/Release/1u6y24t4/arm64-v8a/metadata_generation_command.txt",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1677287997
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/jni/Android.mk",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 312667954
+  }
+]

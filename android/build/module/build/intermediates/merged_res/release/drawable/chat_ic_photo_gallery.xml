@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright (c) 2017, salesforce.com, inc.
+  ~ All rights reserved.
+  ~
+  ~ Use of this software is subject to the salesforce.com Developerforce Terms of Use and other
+  ~ applicable terms that salesforce.com may make available, as may be amended from time to time.
+  ~ You may not decompile, reverse engineer, disassemble, attempt to derive the source code of,
+  ~ decrypt, modify, or create derivative works of this software, updates thereto, or any part
+  ~ thereof. You may not use the software to engage in any development activity that infringes the
+  ~ rights of a third party, including that which interferes with, damages, or accesses in an
+  ~ unauthorized manner the servers, networks, or other properties or services of salesforce.com or
+  ~ any third party.
+  ~ ​
+  ~ WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+  ~ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL SALESFORCE.COM HAVE ANY LIABILITY
+  ~ FOR ANY DAMAGES, INCLUDING BUT NOT LIMITED TO, DIRECT, INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE,
+  ~ OR CONSEQUENTIAL DAMAGES, OR DAMAGES BASED ON LOST PROFITS, DATA OR USE, IN CONNECTION WITH THE
+  ~ SOFTWARE, HOWEVER CAUSED AND, WHETHER IN CONTRACT, TORT OR UNDER ANY OTHER THEORY OF LIABILITY,
+  ~ WHETHER OR NOT YOU HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="48dp"
+        android:height="48dp"
+        android:viewportHeight="24.0"
+        android:viewportWidth="24.0">
+    <path
+        android:fillColor="@color/salesforce_contrast_secondary"
+        android:pathData="M4.773,0L0.682,0A0.7,0.7 0,0 0,0 0.682v7.727a0.7,0.7 0,0 0,0.682 0.682h4.09a0.7,0.7 0,0 0,0.683 -0.682L5.455,0.682A0.7,0.7 0,0 0,4.773 0zM12.045,0h-4.09a0.7,0.7 0,0 0,-0.682 0.682v7.727a0.7,0.7 0,0 0,0.682 0.682h4.09a0.7,0.7 0,0 0,0.682 -0.682L12.727,0.682A0.7,0.7 0,0 0,12.045 0zM19.318,0h-4.09a0.7,0.7 0,0 0,-0.683 0.682v7.727a0.7,0.7 0,0 0,0.682 0.682h4.091A0.7,0.7 0,0 0,20 8.409L20,0.682A0.7,0.7 0,0 0,19.318 0zM4.773,10.91L0.682,10.91a0.7,0.7 0,0 0,-0.682 0.68v7.728A0.7,0.7 0,0 0,0.682 20h4.09a0.7,0.7 0,0 0,0.683 -0.682v-7.727a0.7,0.7 0,0 0,-0.682 -0.682zM12.045,10.91h-4.09a0.7,0.7 0,0 0,-0.682 0.68v7.728a0.7,0.7 0,0 0,0.682 0.682h4.09a0.7,0.7 0,0 0,0.682 -0.682v-7.727a0.7,0.7 0,0 0,-0.682 -0.682zM19.318,10.91h-4.09a0.7,0.7 0,0 0,-0.683 0.68v7.728a0.7,0.7 0,0 0,0.682 0.682h4.091a0.7,0.7 0,0 0,0.682 -0.682v-7.727a0.7,0.7 0,0 0,-0.682 -0.682z"/>
+</vector>

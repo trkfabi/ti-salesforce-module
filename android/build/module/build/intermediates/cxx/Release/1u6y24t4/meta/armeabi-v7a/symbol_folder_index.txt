@@ -1,0 +1,1 @@
+/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/cxx/Release/1u6y24t4/obj/local/armeabi-v7a

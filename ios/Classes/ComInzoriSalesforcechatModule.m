@@ -73,9 +73,9 @@
     ];
 
   config.visitorName = visitorName;                                              
-  config.defaultToMinimized = defaultToMinimized;
-  config.allowURLPreview = allowURLPreview;
-  config.allowMinimization = allowMinimization;
+  config.defaultToMinimized = defaultToMinimized ? @"YES": @"NO";
+  config.allowURLPreview = allowURLPreview ? @"YES": @"NO";
+  config.allowMinimization = allowMinimization ? @"YES": @"NO";
 
   // Add delegates
   [[SCServiceCloud sharedInstance].chatCore addDelegate:self];
@@ -84,62 +84,86 @@
   [[SCServiceCloud sharedInstance].chatUI showChatWithConfiguration:config];
 }
 
+
 #pragma mark - SCSChatSessionDelegate
   
 - (void)session:(id<SCSChatSession>)session didTransitionFromState:(SCSChatSessionState)previous toState:(SCSChatSessionState)current {
+    NSString *code = @"UNKNOWN";
     switch(current) {
       case SCSChatSessionStateInactive:
-        NSLog(@"[INFO] Chat is inactive");
+        code = @"INACTIVE";
         break;
       case SCSChatSessionStateConnecting:
-        NSLog(@"[INFO] Chat is connecting...");
+        code = @"CONNECTING";
         break;        
       case SCSChatSessionStateQueued:
-        NSLog(@"[INFO] Chat is queued");
+        code = @"QUEUED";
         break;      
       case SCSChatSessionStateConnected:
-        NSLog(@"[INFO] Chat is connected");
+        code = @"CONNECTED";
         break;      
       case SCSChatSessionStateEnding:
-        NSLog(@"[INFO] Chat is ending...");
+        code = @"ENDING";
         break;             
                         
     }
+    NSDictionary *event = [NSDictionary dictionaryWithObjectsAndKeys:
+                            code,@"state",
+                            nil];    
+    [self fireEvent:@"salesforce_chat:session_state" withObject:event];
 }
 
 - (void)session:(id<SCSChatSession>)session didEnd:(SCSChatSessionEndEvent *)endEvent {
+    NSString *code = @"UNKNOWN";
     switch(endEvent.reason) {
       case SCSChatEndReasonUser:
         NSLog(@"[INFO] Session was ended due to user interaction.");
+        code = @"USER";
         break;
       case SCSChatEndReasonAgent:
         NSLog(@"[INFO] Session was ended remotely by the agent.");
+        code = @"AGENT";
         break;
       case SCSChatEndReasonNoAgentsAvailable:
         NSLog(@"[INFO] Session was ended as a result of no agents being available.");
+        code = @"NOAGENTSAVAILABLE";
         break;
       case SCSChatEndReasonTimeout:
         NSLog(@"[INFO] Session was ended due to a network disruption resulting in a timeout.");
+        code = @"TIMEOUT";
         break;
       case SCSChatEndReasonSessionError:
         NSLog(@"[INFO] Session was ended as the result of a fatal error.");
+        code = @"ERROR";
         break;
                         
     }
+    NSDictionary *event = [NSDictionary dictionaryWithObjectsAndKeys:
+                            code,@"reason",
+                            nil];    
+    [self fireEvent:@"salesforce_chat:session_end" withObject:event];    
 }
 
 - (void)session:(id<SCSChatSession>)session didError:(NSError *)error fatal:(BOOL)fatal {
     NSLog(@"[INFO] didError: %@", error.localizedDescription);
+    NSDictionary *event = [NSDictionary dictionaryWithObjectsAndKeys:
+                            error.localizedDescription,@"error", 
+                            nil];    
+    [self fireEvent:@"salesforce_chat:session_error" withObject:event];     
 }
 
 - (void)session:(id<SCSChatSession>)session
     didUpdateQueuePosition:(NSNumber *)position
          estimatedWaitTime:(NSNumber *)waitTime {
-          NSLog(@"[INFO] didUpdateQueuePosition: %d estimatedWaitTime: %d", position, waitTime); 
+
+    NSLog(@"[INFO] didUpdateQueuePosition: %d estimatedWaitTime: %d", [position intValue], [waitTime intValue]);
+    
+
 };
 
 - (void)session:(id<SCSChatSession>)session didUpdateQueuePosition:(NSNumber *)position {
-  NSLog(@"[INFO] didUpdateQueuePosition: %d", position);  
+          NSLog(@"[INFO] didUpdateQueuePosition: %d", [position intValue]);
+  
 };
 
 @end

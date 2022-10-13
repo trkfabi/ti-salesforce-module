@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals doc="Estimated wait time value in minutes displayed in the Minimized View and Fullscreen View" name="chat_estimated_wait_time_minutes">
+        <!-- Estimated wait time "1 minute" -->
+        <item quantity="one">%1$s دقيقة</item>
+        <item quantity="two">%1$s دقائق</item>
+        <item quantity="few">%1$s دقائق</item>
+        <item quantity="many">%1$s دقائق</item>
+        <!-- Estimated wait time "5 minutes" -->
+        <item quantity="other">%1$s minutes</item>
+    </plurals>
+    <plurals doc="Content description for the unread message count displayed on the Minimized View." name="chat_minimized_unread_message_count">
+        <item quantity="zero">%1$d رسالة غير مقروءة من %2$s</item>
+        <!-- 1 unread message from AGENT -->
+        <item quantity="one">%1$d رسالة غير مقروءة من %2$s</item>
+        <item quantity="two">%1$d من الرسائل غير مقروءة من %2$s</item>
+        <item quantity="few">%1$d من الرسائل غير مقروءة من %2$s</item>
+        <item quantity="many">%1$d من الرسائل غير مقروءة من %2$s</item>
+        <!-- 5 unread messages from AGENT -->
+        <item quantity="other">%1$d من الرسائل غير مقروءة من %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="zero">%d إشعار جديد</item>
+    <item quantity="one">إشعار جديد واحد (%d)</item>
+    <item quantity="two">إشعاران جديدان (%d)</item>
+    <item quantity="few">%d إشعارات جديدة</item>
+    <item quantity="many">%d إشعارًا جديدًا</item>
+    <item quantity="other">%d إشعار جديد</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"تم"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"مفعّلة"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"فضاء"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"طلب بحث"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"البحث"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"بحث صوتي"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string doc="Content description for agent avatar" name="agent_has_joined_conference_avatar_description">
+        وكيل مؤتمر المجموعة
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown to users when an             additional agent has joined an existing chat session" name="agent_has_joined_conference_message">
+        انضم %1$s إلى الدردشة -  %2$s
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown when an agent has left an             existing group conference chat session" name="agent_has_left_conference_message">
+        غادر %1$s الدردشة - %2$s
+    </string>
+    <string doc="String read out by a screen reader when the agent starts typing" name="agent_is_typing">%1$s يكتب
+    </string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string doc="Message text shown to users in a banner when they reconnect during a chat session" name="chat_connection_banner_connected_text">
+        متصل!
+    </string>
+    <string doc="Message text shown to users in a banner when they are disconnected during a chat session" name="chat_connection_banner_disconnected_text">هناك مشكلة في الاتصال. سنواصل محاولات الاتصال.
+    </string>
+    <string doc="The connection lost banner text." name="chat_connection_lost_banner_text">
+        فقدت الاتصال
+    </string>
+    <string doc="The message in the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_message">
+        هل أنت متأكد أنك تريد إنهاء جلسة الدردشة؟</string>
+    <string doc="The positive button text shown in the End Session confirmation dialog." name="chat_dialog_end_session_positive">
+        إنهاء الجلسة </string>
+    <string doc="The title of the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_title">
+        الوداع؟</string>
+    <string doc="The negative button text shown in the End Session confirmation dialog." name="chat_dialog_negative">
+        إلغاء</string>
+    <string doc="Menu option displayed to the user that lets them take a photo with their camera and             send it to the agent." name="chat_dialog_select_image_source_camera">
+        التقاط صورة</string>
+    <string doc="Menu option displayed to the user that lets them choose a photo from their phone&apos;s             photo gallery app to send to the agent." name="chat_dialog_select_image_source_choose">
+        اختيار من المعرض</string>
+    <string doc="Menu option displayed to the user that lets them send the last photo they took with             their camera to the agent." name="chat_dialog_select_image_source_last_photo">
+        استخدام آخر صورة تم التقاطها</string>
+    <string doc="Content description for buttons that will end the chat session if pressed." name="chat_end_session_content_description">
+        إنهاء جلسة الدردشة</string>
+    <string doc="Content description for the chat feed view." name="chat_feed_content_description">
+        يتم عرض رسائل الدردشة هنا</string>
+    <string doc="The toolbar title text that is visible on the chat feed." name="chat_feed_title" translatable="false">@string/pre_chat_toolbar_title</string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been             cancelled by the agent." name="chat_file_transfer_canceled">
+        تم إلغاء نقل الملفات</string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been completed." name="chat_file_transfer_completed">
+        تم نقل ملفك
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has failed." name="chat_file_transfer_failed">
+        فشل نقل الملفات</string>
+    <string doc="Message displayed to the user in the Chat Feed when the agent has requested a file             transfer from the user." name="chat_file_transfer_requested">
+        تم طلب نقل الملفات </string>
+    <string doc="Content description applied to the chat session footer menu at the bottom of the Chat Feed." name="chat_footer_menu_button_content_description">
+        عرض خيارات جلسة الدردشة</string>
+    <string doc="Content description applied to the footer menu collapse button on the chat bot footer menu." name="chat_footer_menu_collapse_content_description">
+        طي القائمة</string>
+    <string doc="Label text displayed at the top of the chat bot footer menu." name="chat_footer_menu_header_label">
+        خيارات القائمة</string>
+    <string doc="The status text description on the Fullscreen View while the session is attempting             to connect to the server." name="chat_fullscreen_connecting_description">
+        استخدام أيقونة التصغير لتقليص الدردشة
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session has been         disconnected." name="chat_fullscreen_connecting_disconnected_description">
+        يرجى إغلاق الدردشة والمحاولة مرة أخرى في وقت لاحق
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session has been disconnected." name="chat_fullscreen_connecting_disconnected_title">
+        لقد تم قطع الاتصال
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session connecting has         encountered an error." name="chat_fullscreen_connecting_error_description">
+        يرجى التأكد من أنك متصل
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session connection has         encountered an error." name="chat_fullscreen_connecting_error_title">
+        حسنًا ، حدث خطأ ما ...
+    </string>
+    <string doc="Content description for the fullscreen chat minimize connecting icon." name="chat_fullscreen_connecting_minimize_content_description" translatable="false">
+        @string/chat_fullscreen_connecting_description
+    </string>
+    <string doc="The status text title displayed on the Fullscreen View while the session is attempting to         connect to the server." name="chat_fullscreen_connecting_title">
+        الاتصال بالدردشة</string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_fullscreen_queued_ewt_long">نواجه وقت انتظار أكثر من المتوقع.
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is unknown." name="chat_fullscreen_queued_ewt_short">سنكون معك بمجرد توفر أحد الوكلاء.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is unknown or very large." name="chat_fullscreen_queued_ewt_text_alternative_title">يرجى الانتظار...
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_description">سنكون معك بمجرد توفر أحد الوكلاء.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_title">الوقت المتوقع للانتظار:
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_description">سنكون معك بمجرد توفر أحد الوكلاء.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_title">مكانك في الصف
+    </string>
+    <string doc="Message displayed to the user when Chat has failed to load a photo from their photo             gallery app." name="chat_image_selection_failed">
+        تعذر تحميل الصورة</string>
+    <string doc="Displayed to the user when their message could not be delivered." name="chat_message_delivery_failed">
+        لم يتم إرسال الرسالة</string>
+    <string doc="Displayed to the user in the Chat feed when they have sent a message in violation             of Sensitive Data Rules and their text has been modified." name="chat_message_modified">
+        تمت إزالة البيانات الحساسة من الرسالة</string>
+    <string doc="Displayed to the user when their message could not be delivered because it violates             Sensitive Data Rules." name="chat_message_not_sent_privacy">
+        لم يتم إرسال الرسالة لأنها تحتوي على بيانات حساسة</string>
+    <string doc="The Notification Channel ID used when posting notifications to inform the user that             a message has been received from the chat agent. Used on devices running Android Oreo              and later. Not translatable." name="chat_message_notification_channel_id" translatable="false">
+        chat_messages_channel
+    </string>
+    <string doc="The name of the Notification Channel used when posting notifications to inform the              user that a message has been received from the chat agent. Used on devices running              Android Oreo and later. " name="chat_message_notification_channel_name">
+        رسائل الدردشة
+    </string>
+    <string doc="Content description for the Minimize action menu item that is shown on the Chat             Feed Activity." name="chat_minimize_content_description">
+        تصغير الدردشة</string>
+    <string doc="The status text displayed on the Minimized View while the session is attempting to             connect to the server." name="chat_minimized_connecting">
+        جارٍ الاتصال بالدردشة ...</string>
+    <string doc="The status text displayed on the Minimized View after the session has ended." name="chat_minimized_post_session">
+        انتهت الجلسة</string>
+    <string doc="The status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued">
+        مكانك في الخط</string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_minimized_queued_ewt_long">وقت انتظار ممتد
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time unknown." name="chat_minimized_queued_ewt_short">في انتظار وكيل
+    </string>
+    <string doc="The estimated wait time status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued_ewt_title">
+        وقت الانتظار:
+    </string>
+    <string doc="Message displayed to the user when the user has denied permission to access their             camera or photos." name="chat_permission_not_granted">
+        لم يتم منح الإذن </string>
+    <string doc="First line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string">
+        حسنًا ، حدث خطأ ما ...</string>
+    <string doc="Second line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string_subtext">
+        فشل طلب الدردشة بسبب خطأ غير معروف. يُرجى المحاولة مرة أخرى.</string>
+    <string doc="The message text displayed on the Chat Service notification. This text is visible              in the Android notification bar when a Chat session is active." name="chat_service_description">
+        أنت الآن تتحدث مع وكيل
+    </string>
+    <string doc="The Notification Channel ID used when posting the foreground service notification              used by Chat on devices running Android Oreo and later. Not translatable." name="chat_service_notification_channel_id" translatable="false">
+        chat_service_channel
+    </string>
+    <string doc="The name of the Notification Channel used when posting the foreground service              notification used by Chat on devices running Android Oreo and later." name="chat_service_notification_channel_name">
+        خدمة الدردشة المباشرة
+    </string>
+    <string doc="The title text displayed on the Chat Service notification. This text is visible in              the Android notification bar when a Chat session is active." name="chat_service_title">
+        خدمة الدردشة السحابية
+    </string>
+    <string doc="Message displayed to the user when an agent transfer is in progress." name="chat_session_button_transfer_initiated">نقلك إلى وكيل</string>
+    <string doc="Message text shown to the user when the agent ends a chat session." name="chat_session_ended_by_agent">
+        أنهى الوكيل الجلسة</string>
+    <string doc="Message displayed to the user when an agent joins the chat." name="chat_session_transferred_to_agent">انضم %1$s  إلى الدردشة</string>
+    <string doc="Message text shown to the user when no agents are available for a chat session." name="chatbot_transfer_no_agents_available_message">
+        معذرة، لا يوجد أي وكلاء متاحين الآن. \nيرجى المحاولة مرة أخرى في وقت لاحق.
+    </string>
+    <string doc="The text of the cancel button displayed while transferring from a chat bot to an agent." name="chatbot_transferring_cancel_button_text">
+        إنهاء الجلسة 
+    </string>
+    <string doc="Message displayed to the user when transferring from a chat bot to an agent." name="chatbot_transferring_connecting_message">
+        الاتصال بوكيل. \nقد يستغرق هذا بضع لحظات.
+    </string>
+    <string doc="The toolbar title displayed while transferring from a chat bot to a live agent" name="chatbot_transferring_toolbar_title">
+        نقل
+    </string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string doc="Open Graph URL standard text for knowledge article hyperlink preview" name="hyperlink_preview_knowledge_article_url_title">
+        المقالة المعرفية
+    </string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string doc="Text shown to the user at the top of the pre-chat screen." name="pre_chat_banner_text">
+        ثمة بضعة أشياء فقط قبل أن نوصلك بخبير ...</string>
+    <string doc="Label text for the button to start a session after completing the pre-chat screen." name="pre_chat_button_start">
+        الدردشة مع وكيل</string>
+    <string doc="Content description applied to the list of fields displayed on the pre-chat screen." name="pre_chat_field_list_description">
+        يتم عرض قائمة الحقول المراد تعبئتها هنا.</string>
+    <string doc="Default text value applied to a picklist when no selection has been made." name="pre_chat_picklist_select_hint">تحديد قيمة…</string>
+    <string doc="The title text that appears on the toolbar of the pre-chat screen." name="pre_chat_toolbar_title">
+        دردشة مباشرة</string>
+    <string doc="Content description applied to the close button on the Minimized View." name="salesforce_close_minimize_view_content_description" translatable="false">
+        @string/chat_end_session_content_description</string>
+    <string doc="The input hint text displayed in the message input area at the bottom of the Chat Feed." name="salesforce_message_input_hint">
+        إرسال رسالة…</string>
+    <string doc="Content description applied to the photo selection button at the bottom of the Chat Feed." name="salesforce_select_photo_content_description">
+        تحديد صورة</string>
+    <string doc="Content description applied to the message send button at the bottom of the Chat Feed." name="salesforce_send_message_content_description">
+        إرسال رسالة</string>
+    <string doc="Content description applied to the user&apos;s sent photo as it appears in the Chat Feed." name="salesforce_sent_photo_content_description">
+        الصورة المرفقة</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

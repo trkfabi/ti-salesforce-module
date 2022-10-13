@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals doc="Estimated wait time value in minutes displayed in the Minimized View and Fullscreen View" name="chat_estimated_wait_time_minutes">
+        <!-- Estimated wait time "1 minute" -->
+        <item quantity="one">%1$s λεπτό</item>
+        <!-- Estimated wait time "5 minutes" -->
+        <item quantity="other">%1$s λεπτά</item>
+    </plurals>
+    <plurals doc="Content description for the unread message count displayed on the Minimized View." name="chat_minimized_unread_message_count">
+        <item quantity="one">%1$d αναγνωσμένο μήνυμα από %2$s</item>
+        <item quantity="other">%1$d μη αναγνωσμένα μηνύματα από %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d νέα ειδοποίηση</item>
+    <item quantity="other">%d νέες ειδοποιήσεις</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Εμφάνιση όλων"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Επιλέξτε μια εφαρμογή"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"διάστημα"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Κοινοποίηση σε"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Κοινοποίηση στην εφαρμογή <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string doc="Content description for agent avatar" name="agent_has_joined_conference_avatar_description">
+        Αντιπρόσωπος ομαδικής συνεδρίασης
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown to users when an             additional agent has joined an existing chat session" name="agent_has_joined_conference_message">
+        Ο χρήστης %1$s συμμετάσχει στη συνομιλία - %2$s
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown when an agent has left an             existing group conference chat session" name="agent_has_left_conference_message">
+        Ο χρήστης %1$s αποχώρησε από τη συνομιλία - %2$s
+    </string>
+    <string doc="String read out by a screen reader when the agent starts typing" name="agent_is_typing">Ο αντιπρόσωπος %1$s πληκτρολογεί
+    </string>
+    <string name="bottomsheet_action_expand_halfway">Ανάπτυξη μέχρι τη μέση</string>
+    <string name="character_counter_content_description">Εισήχθησαν %1$d από %2$d χαρακτήρες</string>
+    <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
+    <string doc="Message text shown to users in a banner when they reconnect during a chat session" name="chat_connection_banner_connected_text">
+        Συνδέθηκε!
+    </string>
+    <string doc="Message text shown to users in a banner when they are disconnected during a chat session" name="chat_connection_banner_disconnected_text">Αντιμετωπίζουμε πρόβλημα με τη σύνδεση. Θα συνεχίσουμε να προσπαθούμε.
+    </string>
+    <string doc="The connection lost banner text." name="chat_connection_lost_banner_text">
+        Απώλεια σύνδεσης</string>
+    <string doc="The message in the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_message">
+        Είστε βέβαιοι ότι θέλετε να τερματίσετε την περίοδο λειτουργίας συνομιλίας;
+    </string>
+    <string doc="The positive button text shown in the End Session confirmation dialog." name="chat_dialog_end_session_positive">
+        Τερματισμός περιόδου λειτουργίας
+    </string>
+    <string doc="The title of the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_title">
+        Αποχωρείτε;
+    </string>
+    <string doc="The negative button text shown in the End Session confirmation dialog." name="chat_dialog_negative">
+        Άκυρο
+    </string>
+    <string doc="Menu option displayed to the user that lets them take a photo with their camera and             send it to the agent." name="chat_dialog_select_image_source_camera">
+        Λήψη φωτογραφίας
+    </string>
+    <string doc="Menu option displayed to the user that lets them choose a photo from their phone&apos;s             photo gallery app to send to the agent." name="chat_dialog_select_image_source_choose">
+        Επιλογή από συλλογή
+    </string>
+    <string doc="Menu option displayed to the user that lets them send the last photo they took with             their camera to the agent." name="chat_dialog_select_image_source_last_photo">
+        Χρήση τελευταίας φωτογραφίας που ελήφθη
+    </string>
+    <string doc="Content description for buttons that will end the chat session if pressed." name="chat_end_session_content_description">
+        Τερματισμός περιόδου λειτουργίας συνομιλίας</string>
+    <string doc="Content description for the chat feed view." name="chat_feed_content_description">
+        Τα μηνύματα συνομιλίας εμφανίζονται εδώ
+    </string>
+    <string doc="The toolbar title text that is visible on the chat feed." name="chat_feed_title" translatable="false">
+        @string/pre_chat_toolbar_title</string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been             cancelled by the agent." name="chat_file_transfer_canceled">
+        Η μεταφορά αρχείου ακυρώθηκε
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been completed." name="chat_file_transfer_completed">
+        Το αρχείο σας έχει μεταφερθεί
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has failed." name="chat_file_transfer_failed">
+        Η μεταφορά αρχείου απέτυχε
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when the agent has requested a file             transfer from the user." name="chat_file_transfer_requested">
+        Ζητήθηκε μεταφορά αρχείου
+    </string>
+    <string doc="Content description applied to the chat session footer menu at the bottom of the Chat Feed." name="chat_footer_menu_button_content_description">
+        Προβολή επιλογών περιόδου λειτουργίας συνομιλίας
+    </string>
+    <string doc="Content description applied to the footer menu collapse button on the chat bot footer menu." name="chat_footer_menu_collapse_content_description">
+        Σύμπτυξη μενού
+    </string>
+    <string doc="Label text displayed at the top of the chat bot footer menu." name="chat_footer_menu_header_label">
+        Επιλογές μενού
+    </string>
+    <string doc="The status text description on the Fullscreen View while the session is attempting             to connect to the server." name="chat_fullscreen_connecting_description">
+        Χρησιμοποιήστε το εικονίδιο ελαχιστοποίησης για την ελαχιστοποίηση της συνομιλίας
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session has been         disconnected." name="chat_fullscreen_connecting_disconnected_description">
+        Κλείστε τη συνομιλία και δοκιμάστε ξανά αργότερα
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session has been disconnected." name="chat_fullscreen_connecting_disconnected_title">
+        Αποσυνδεθήκατε
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session connecting has         encountered an error." name="chat_fullscreen_connecting_error_description">
+        Βεβαιωθείτε ότι είστε συνδεδεμένοι
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session connection has         encountered an error." name="chat_fullscreen_connecting_error_title">
+        Ωχ, κάτι πήγε στραβά…
+    </string>
+    <string doc="Content description for the fullscreen chat minimize connecting icon." name="chat_fullscreen_connecting_minimize_content_description" translatable="false">
+        @string/chat_fullscreen_connecting_description
+    </string>
+    <string doc="The status text title displayed on the Fullscreen View while the session is attempting to         connect to the server." name="chat_fullscreen_connecting_title">
+        Σύνδεση σε συνομιλία
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_fullscreen_queued_ewt_long">Αντιμετωπίζουμε χρόνους αναμονής μεγαλύτερους από το αναμενόμενο.
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is unknown." name="chat_fullscreen_queued_ewt_short">Θα επικοινωνήσουμε μαζί σας μόλις υπάρξει διαθέσιμος αντιπρόσωπος.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is unknown or very large." name="chat_fullscreen_queued_ewt_text_alternative_title">Περιμένετε...
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_description">Θα επικοινωνήσουμε μαζί σας μόλις υπάρξει διαθέσιμος αντιπρόσωπος.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_title">Ο εκτιμώμενος χρόνος αναμονής είναι:
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_description">Θα επικοινωνήσουμε μαζί σας μόλις υπάρξει διαθέσιμος αντιπρόσωπος.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_title">Η θέση σας στη γραμμή
+    </string>
+    <string doc="Message displayed to the user when Chat has failed to load a photo from their photo             gallery app." name="chat_image_selection_failed">
+        Δεν είναι δυνατή η φόρτωση της φωτογραφίας
+    </string>
+    <string doc="Displayed to the user when their message could not be delivered." name="chat_message_delivery_failed">
+        Το μήνυμα δεν εστάλη
+    </string>
+    <string doc="Displayed to the user in the Chat feed when they have sent a message in violation             of Sensitive Data Rules and their text has been modified." name="chat_message_modified">
+        Τα ευαίσθητα δεδομένα καταργήθηκαν από το μήνυμα
+    </string>
+    <string doc="Displayed to the user when their message could not be delivered because it violates             Sensitive Data Rules." name="chat_message_not_sent_privacy">
+        Το μήνυμα δεν εστάλη επειδή περιέχει ευαίσθητα δεδομένα
+    </string>
+    <string doc="The Notification Channel ID used when posting notifications to inform the user that             a message has been received from the chat agent. Used on devices running Android Oreo              and later. Not translatable." name="chat_message_notification_channel_id" translatable="false">
+        chat_messages_channel
+    </string>
+    <string doc="The name of the Notification Channel used when posting notifications to inform the              user that a message has been received from the chat agent. Used on devices running              Android Oreo and later. " name="chat_message_notification_channel_name">
+        Μηνύματα συνομιλίας
+    </string>
+    <string doc="Content description for the Minimize action menu item that is shown on the Chat             Feed Activity." name="chat_minimize_content_description">
+        Ελαχιστοποίηση συνομιλίας</string>
+    <string doc="The status text displayed on the Minimized View while the session is attempting to             connect to the server." name="chat_minimized_connecting">
+        Σύνδεση σε συνομιλία…</string>
+    <string doc="The status text displayed on the Minimized View after the session has ended." name="chat_minimized_post_session">
+        Η περίοδος λειτουργίας τερματίστηκε
+    </string>
+    <string doc="The status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued">
+        Η θέση σας στη γραμμή
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_minimized_queued_ewt_long">Μεγάλος χρόνος αναμονής
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time unknown." name="chat_minimized_queued_ewt_short">Αναμονή για αντιπρόσωπο
+    </string>
+    <string doc="The estimated wait time status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued_ewt_title">
+        Χρόνος αναμονής:
+    </string>
+    <string doc="Message displayed to the user when the user has denied permission to access their             camera or photos." name="chat_permission_not_granted">
+        Το δικαίωμα δεν εκχωρήθηκε
+    </string>
+    <string doc="First line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string">
+        Ωχ, κάτι πήγε στραβά…
+    </string>
+    <string doc="Second line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string_subtext">
+        Το αίτημα συνομιλίας απέτυχε λόγω άγνωστου σφάλματος. Δοκιμάστε ξανά.
+    </string>
+    <string doc="The message text displayed on the Chat Service notification. This text is visible              in the Android notification bar when a Chat session is active." name="chat_service_description">
+        Αυτήν τη στιγμή συνομιλείτε με κάποιον αντιπρόσωπο
+    </string>
+    <string doc="The name of the Notification Channel used when posting the foreground service              notification used by Chat on devices running Android Oreo and later." name="chat_service_notification_channel_name">
+        Υπηρεσία ζωντανής συνομιλίας
+    </string>
+    <string doc="The title text displayed on the Chat Service notification. This text is visible in              the Android notification bar when a Chat session is active." name="chat_service_title">
+        Συνομιλία Service Cloud
+    </string>
+    <string doc="Message displayed to the user when an agent transfer is in progress." name="chat_session_button_transfer_initiated">
+        Γίνεται μεταφορά σας σε αντιπρόσωπο</string>
+    <string doc="Message text shown to the user when the agent ends a chat session." name="chat_session_ended_by_agent">
+        Ο αντιπρόσωπος τερμάτισε την περίοδο λειτουργίας
+    </string>
+    <string doc="Message displayed to the user when an agent joins the chat." name="chat_session_transferred_to_agent">
+        Ο χρήστης %1$s συμμετάσχει στη συνομιλία</string>
+    <string doc="Message text shown to the user when no agents are available for a chat session." name="chatbot_transfer_no_agents_available_message">
+        Συγγνώμη για αυτό!\nΔεν υπάρχουν διαθέσιμοι αντιπρόσωποι.
+    </string>
+    <string doc="The text of the cancel button displayed while transferring from a chat bot to an agent." name="chatbot_transferring_cancel_button_text">
+        Τερματισμός περιόδου λειτουργίας
+    </string>
+    <string doc="Message displayed to the user when transferring from a chat bot to an agent." name="chatbot_transferring_connecting_message">
+        Σύνδεση με αντιπρόσωπο,\nπεριμένετε λίγα λεπτά
+    </string>
+    <string doc="The toolbar title displayed while transferring from a chat bot to a live agent" name="chatbot_transferring_toolbar_title">
+        Μεταφορά
+    </string>
+    <string name="clear_text_end_icon_content_description">Διαγραφή κειμένου</string>
+    <string name="error_icon_content_description">Σφάλμα</string>
+    <string name="exposed_dropdown_menu_content_description">Εμφάνιση αναπτυσσόμενου μενού</string>
+    <string doc="Open Graph URL standard text for knowledge article hyperlink preview" name="hyperlink_preview_knowledge_article_url_title">Άρθρο του Knowledge
+    </string>
+    <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
+    <string name="item_view_role_description">Καρτέλα</string>
+    <string name="material_clock_toggle_content_description">Επιλέξτε π.μ. ή μ.μ.</string>
+    <string name="material_hour_selection">Επιλογή ώρας</string>
+    <string name="material_hour_suffix">%1$s ακριβώς</string>
+    <string name="material_minute_selection">Επιλογή λεπτών</string>
+    <string name="material_minute_suffix">%1$s λεπτά</string>
+    <string name="material_timepicker_am">ΠΜ</string>
+    <string name="material_timepicker_clock_mode_description">Κάντε εναλλαγή στη λειτουργία ρολογιού, για την εισαγωγή της ώρας.</string>
+    <string name="material_timepicker_hour">Ώρα</string>
+    <string name="material_timepicker_minute">Λεπτό</string>
+    <string name="material_timepicker_pm">ΜΜ</string>
+    <string name="material_timepicker_select_time">Επιλέξτε ώρα</string>
+    <string name="material_timepicker_text_input_mode_description">Κάντε εναλλαγή στη λειτουργία εισαγωγής κειμένου, για την εισαγωγή της ώρας.</string>
+    <string name="mtrl_badge_numberless_content_description">Νέα ειδοποίηση</string>
+    <string name="mtrl_chip_close_icon_content_description">Κατάργηση %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Πάνω από %1$d νέες ειδοποιήσεις</string>
+    <string name="mtrl_picker_a11y_next_month">Αλλαγή στον επόμενο μήνα</string>
+    <string name="mtrl_picker_a11y_prev_month">Αλλαγή στον προηγούμενο μήνα</string>
+    <string name="mtrl_picker_announce_current_selection">Τρέχουσα επιλογή: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Επιλογή ημερομηνίας</string>
+    <string name="mtrl_picker_date_header_unselected">Επιλεγμένη ημερομηνία</string>
+    <string name="mtrl_picker_day_of_week_column_header">Στήλη ημερών: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Μη έγκυρη μορφή.</string>
+    <string name="mtrl_picker_invalid_format_example">Παράδειγμα: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Χρησιμοποιήστε: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Μη έγκυρο εύρος.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Πλοήγηση στο έτος %1$s</string>
+    <string name="mtrl_picker_out_of_range">Εκτός εύρους: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ημερομηνία έναρξης – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Επιλογή εύρους</string>
+    <string name="mtrl_picker_range_header_unselected">Ημερομηνία έναρξης – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_save">Αποθήκευση</string>
+    <string name="mtrl_picker_text_input_date_hint">Ημερομηνία</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ημερομηνία έναρξης</string>
+    <string name="mtrl_picker_text_input_day_abbr">η</string>
+    <string name="mtrl_picker_text_input_month_abbr">μ</string>
+    <string name="mtrl_picker_text_input_year_abbr">ε</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Εναλλαγή στη λειτουργία εισαγωγής ημερολογίου</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Πατήστε για εναλλαγή για την επιλογή ημέρας</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Εναλλαγή στη λειτουργία εισαγωγής κειμένου</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Πατήστε για εναλλαγή για την επιλογή έτους</string>
+    <string name="password_toggle_content_description">Εμφάνιση κωδικού πρόσβασης</string>
+    <string doc="Text shown to the user at the top of the pre-chat screen." name="pre_chat_banner_text">
+        Απαιτούνται κάποιες ενέργειες πριν από τη σύνδεσή σας με κάποιον ειδικό…
+    </string>
+    <string doc="Label text for the button to start a session after completing the pre-chat screen." name="pre_chat_button_start">
+        Συνομιλία με αντιπρόσωπο
+    </string>
+    <string doc="Content description applied to the list of fields displayed on the pre-chat screen." name="pre_chat_field_list_description">
+        Εδώ εμφανίζεται μια λίστα πεδίων προς συμπλήρωση.
+    </string>
+    <string doc="Default text value applied to a picklist when no selection has been made." name="pre_chat_picklist_select_hint">
+        Επιλέξτε τιμή...</string>
+    <string doc="The title text that appears on the toolbar of the pre-chat screen." name="pre_chat_toolbar_title">
+        Ζωντανή συνομιλία
+    </string>
+    <string doc="Content description applied to the close button on the Minimized View." name="salesforce_close_minimize_view_content_description" translatable="false">
+        @string/chat_end_session_content_description
+    </string>
+    <string doc="The input hint text displayed in the message input area at the bottom of the Chat Feed." name="salesforce_message_input_hint">
+        Αποστολή μηνύματος...
+    </string>
+    <string doc="Content description applied to the photo selection button at the bottom of the Chat Feed." name="salesforce_select_photo_content_description">
+        Επιλέξτε φωτογραφία
+    </string>
+    <string doc="Content description applied to the message send button at the bottom of the Chat Feed." name="salesforce_send_message_content_description">
+        Αποστολή μηνύματος
+    </string>
+    <string doc="Content description applied to the user&apos;s sent photo as it appears in the Chat Feed." name="salesforce_sent_photo_content_description">
+        Συνημμένη φωτογραφία
+    </string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Αναζήτηση"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

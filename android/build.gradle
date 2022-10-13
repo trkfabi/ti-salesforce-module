@@ -1,5 +1,39 @@
 
+repositories {
+  google()
+  mavenCentral()
+    maven {
+      url 'https://s3.amazonaws.com/salesforcesos.com/android/maven/release'
+    }
+    maven {
+      url 'https://tokbox.bintray.com/maven/'
+    } 
+}
 dependencies {
-	// Add the module's library dependencies here.
-	// See:  https://developer.android.com/studio/build/dependencies
+  implementation "com.salesforce.service:chat-ui:4.3.3"
+}
+
+gradle.taskGraph.whenReady {taskGraph ->
+    println "Found task graph: " + taskGraph
+    println "Found " + taskGraph.allTasks.size() + " tasks."
+    taskGraph.allTasks.forEach { task ->
+        println task.name
+        if (task.name == 'verifyReleaseResources') {
+          println '     |----------------> DISABLED !!!!!!!!'
+          task.enabled = false
+        }
+        // task.doFirst {
+        //   replaceResource()  
+        // }
+    }
+}
+
+ext.replaceResource = { ->
+  File valuesFile = file("/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/values/values.xml")
+  if(valuesFile.exists()) {
+    String content = valuesFile.getText('UTF-8')
+    content = content.replaceAll(/labelVisibilityMode\"/, "ti:labelVisibilityModeAux\"")
+    valuesFile.write(content, 'UTF-8')
+    println "replaced"
+  }
 }

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016, salesforce.com, inc.
+  ~ All rights reserved.
+  ~
+  ~ Use of this software is subject to the salesforce.com Developerforce Terms of Use and other
+  ~ applicable terms that salesforce.com may make available, as may be amended from time to time.
+  ~ You may not decompile, reverse engineer, disassemble, attempt to derive the source code of,
+  ~ decrypt, modify, or create derivative works of this software, updates thereto, or any part
+  ~ thereof. You may not use the software to engage in any development activity that infringes the
+  ~ rights of a third party, including that which interferes with, damages, or accesses in an
+  ~ unauthorized manner the servers, networks, or other properties or services of salesforce.com or
+  ~ any third party.
+  ~ ​
+  ~ WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+  ~ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL SALESFORCE.COM HAVE ANY LIABILITY
+  ~ FOR ANY DAMAGES, INCLUDING BUT NOT LIMITED TO, DIRECT, INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE,
+  ~ OR CONSEQUENTIAL DAMAGES, OR DAMAGES BASED ON LOST PROFITS, DATA OR USE, IN CONNECTION WITH THE
+  ~ SOFTWARE, HOWEVER CAUSED AND, WHETHER IN CONTRACT, TORT OR UNDER ANY OTHER THEORY OF LIABILITY,
+  ~ WHETHER OR NOT YOU HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+  -->
+
+<RelativeLayout style="@style/Widget.ServiceChat.MinimizedView"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:background="@drawable/salesforce_minimized_view"
+                tools:layout_height="102dp"
+                tools:layout_width="94dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/chat_minimized_agent_avatar"
+        android:layout_width="@dimen/chat_minimized_agent_avatar_height"
+        android:layout_height="@dimen/chat_minimized_agent_avatar_height"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/salesforce_agent_avatar"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/chat_minimized_agent_message_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chat_minimized_chat_bubble_height"
+        android:layout_below="@+id/chat_minimized_agent_avatar"
+        android:layout_marginStart="@dimen/chat_minimized_chat_bubble_marginLeft"
+        android:layout_marginTop="@dimen/chat_minimized_chat_bubble_marginTop"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/chat_minimized_message_indicator"/>
+
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView
+        android:id="@+id/chat_minimized_message_counter"
+        style="@style/ServiceChatText.MinimizedCounter"
+        android:layout_alignBottom="@id/chat_minimized_agent_message_indicator"
+        android:layout_alignEnd="@id/chat_minimized_agent_message_indicator"
+        android:layout_alignStart="@id/chat_minimized_agent_message_indicator"
+        android:layout_alignTop="@id/chat_minimized_agent_message_indicator"
+        tools:text="9+"/>
+
+
+    <com.salesforce.android.service.common.ui.views.SalesforceTextView
+        android:id="@+id/chat_minimized_agent_name"
+        style="@style/ServiceChatText.Minimized.AgentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_minimized_agent_avatar"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no"
+        tools:text="Agent Name"/>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "8effcc16fabccafd7bbb83850b76fefba09fb951c034171470b90f08d9b4d082"
+    }
+  ],
+  "containerPath" : "/Users/fabi/Documents/Workspace/Titanium/Modules/Salesforce-Chat/ios/Salesforce-Chat.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/fabi/Documents/Workspace/Titanium/Modules/Salesforce-Chat/ios/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/fabi/Documents/Workspace/Titanium/Modules/Salesforce-Chat/ios/Build/Products",
+      "derivedDataPath" : "/Users/fabi/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/fabi/Library/Developer/Xcode/DerivedData/Salesforce-Chat-dqbhftymhcalgeecolwnntxtawfx/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/fabi/Library/Developer/Xcode/DerivedData/Salesforce-Chat-dqbhftymhcalgeecolwnntxtawfx/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/fabi/Documents/Workspace/Titanium/Modules/Salesforce-Chat/ios/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPod9,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "71DFACBF-B76E-4AFE-9150-BF94F565225A",
+          "TARGET_DEVICE_MODEL" : "iPod9,1",
+          "TARGET_DEVICE_OS_VERSION" : "15.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
