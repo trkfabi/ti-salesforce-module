@@ -8,6 +8,7 @@
  */
 package com.inzori.salesforcechat;
 
+import android.app.Activity;
 import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.kroll.KrollDict;
@@ -15,17 +16,23 @@ import org.appcelerator.kroll.KrollFunction;
 import org.appcelerator.kroll.KrollProxy;
 
 import org.appcelerator.titanium.TiApplication;
-import org.appcelerator.kroll.common.Log;
 import org.appcelerator.kroll.common.TiConfig;
 import org.appcelerator.kroll.common.Log;
 
+import com.salesforce.android.service.common.utilities.control.Async;
+
 import com.salesforce.android.chat.core.ChatConfiguration;
+import com.salesforce.android.chat.core.SessionStateListener;
+import com.salesforce.android.chat.core.SessionInfoListener;
+
 import com.salesforce.android.chat.ui.ChatUIConfiguration;
 import com.salesforce.android.chat.ui.ChatUI;
 import com.salesforce.android.chat.ui.ChatUIClient;
-import com.salesforce.android.service.common.utilities.control.Async;
+import com.salesforce.android.chat.ui.ChatEventListener;
 
-
+import com.inzori.salesforcechat.MyEventListener;
+import com.inzori.salesforcechat.MySessionInfoListener;
+import com.inzori.salesforcechat.MySessionStateListener;
 
 @Kroll.module(name="SalesforceChat", id="com.inzori.salesforcechat")
 public class SalesforceChatModule extends KrollModule
@@ -34,6 +41,13 @@ public class SalesforceChatModule extends KrollModule
 	// Standard Debugging variables
 	private static final String LCAT = "SalesforceChatModule";
 	private static final boolean DBG = TiConfig.LOGD;
+	private static TiApplication mApp;
+	private static MySessionStateListener mSessionStateListener;
+	private static MyEventListener mEventListener;
+	private static MySessionInfoListener mSessionInfoListener;
+
+	private static TiApplication appContext = TiApplication.getInstance();
+	private static Activity activity = appContext.getCurrentActivity();
 
 	public SalesforceChatModule()
 	{
@@ -43,8 +57,25 @@ public class SalesforceChatModule extends KrollModule
 	@Kroll.onAppCreate
 	public static void onAppCreate(TiApplication app)
 	{
-		Log.d(LCAT, "inside onAppCreate");
+		mApp = app;
+		Log.w(LCAT, "inside onAppCreate");
 		// put module init code that needs to run when the application is created
+		mSessionStateListener = new MySessionStateListener();
+		mEventListener = new MyEventListener();
+		mSessionInfoListener = new MySessionInfoListener();				
+	}
+
+	@Kroll.method
+	public SessionStateListener getSessionStateListener () {
+		return mSessionStateListener;
+	}
+	@Kroll.method
+	public ChatEventListener getEventListener () {
+		return mEventListener;
+	}
+	@Kroll.method
+	public SessionInfoListener getSessionInfoListener () {
+		return mSessionInfoListener;
 	}
 
 	@Kroll.method
@@ -75,19 +106,22 @@ public class SalesforceChatModule extends KrollModule
 										  DEPLOYMENT_ID, LIVE_AGENT_POD)
 										  .build();
 
-			// ChatUIConfiguration.Builder uiConfig = new ChatUIConfiguration.Builder()
-			// 	.chatConfiguration(chatConfiguration)
-			// 	.chatEventListener(TiApplication.getInstance()).getEventListener();
-													
-			// ServiceSDKApplication serviceSDKApplication = (ServiceSDKApplication) TiApplication.getInstance().getApplicationContext();
-			// final ChatSessionListener chatListener = serviceSDKApplication.getChatSessionListener();
-													
+			ChatUIConfiguration.Builder uiConfig = new ChatUIConfiguration.Builder()
+				.chatConfiguration(chatConfiguration)
+				.chatEventListener(getEventListener());
+							
 			ChatUI.configure(ChatUIConfiguration.create(chatConfiguration))
 				.createClient(TiApplication.getInstance().getApplicationContext())
 				.onResult(new Async.ResultHandler<ChatUIClient>() {
 					@Override public void handleResult (Async<?> operation, 
 					ChatUIClient chatUIClient) {
-						//chatUIClient.addSessionStateListener(chatListener);
+
+						SessionStateListener sessionStateListener = getSessionStateListener();
+						chatUIClient.addSessionStateListener(sessionStateListener);
+		
+						SessionInfoListener sessionInfoListener = getSessionInfoListener();
+						chatUIClient.addSessionInfoListener(sessionInfoListener);
+		
 						chatUIClient.startChatSession(TiApplication.getAppCurrentActivity());
 					}
 			});										  

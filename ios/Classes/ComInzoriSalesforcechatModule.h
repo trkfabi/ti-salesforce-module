@@ -10,7 +10,9 @@
 @import ServiceChat;
 
 @interface ComInzoriSalesforcechatModule : TiModule <SCSChatSessionDelegate>{
-
+    
 }
+
+- (UIColor *)colorFromHexString:(NSString *)hexString;
 
 @end

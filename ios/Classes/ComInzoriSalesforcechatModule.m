@@ -72,18 +72,38 @@
                                               buttonId:buttonId
     ];
 
-  config.visitorName = visitorName;                                              
-  config.defaultToMinimized = defaultToMinimized ? @"YES": @"NO";
-  config.allowURLPreview = allowURLPreview ? @"YES": @"NO";
-  config.allowMinimization = allowMinimization ? @"YES": @"NO";
+  config.visitorName = visitorName;                                   
+  config.defaultToMinimized = defaultToMinimized ? YES: NO;
+  config.allowURLPreview = allowURLPreview ? YES: NO;
+  config.allowMinimization = allowMinimization ? YES: NO;
+
+  SCAppearanceConfiguration *appearance = [SCAppearanceConfiguration new];
+  [appearance setColor:[self colorFromHexString:@"#FFFFFF"]
+              forName:SCSAppearanceColorTokenNavbarBackground];
+
+  [appearance setColor:[self colorFromHexString:@"#02B3E4"]
+              forName:SCSAppearanceColorTokenNavbarInverted];
+
+  [appearance setColor:[self colorFromHexString:@"#02B3E4"]
+              forName:SCSAppearanceColorTokenBrandPrimary];
+  
 
   // Add delegates
   [[SCServiceCloud sharedInstance].chatCore addDelegate:self];
-    
+  [SCServiceCloud sharedInstance].appearanceConfiguration = appearance;
+
   // Start the session
   [[SCServiceCloud sharedInstance].chatUI showChatWithConfiguration:config];
 }
 
+// Assumes input like "#00FF00" (#RRGGBB).
+- (UIColor *)colorFromHexString:(NSString *)hexString {
+    unsigned rgbValue = 0;
+    NSScanner *scanner = [NSScanner scannerWithString:hexString];
+    [scanner setScanLocation:1]; // bypass '#' character
+    [scanner scanHexInt:&rgbValue];
+    return [UIColor colorWithRed:((rgbValue & 0xFF0000) >> 16)/255.0 green:((rgbValue & 0xFF00) >> 8)/255.0 blue:(rgbValue & 0xFF)/255.0 alpha:1.0];
+}
 
 #pragma mark - SCSChatSessionDelegate
   

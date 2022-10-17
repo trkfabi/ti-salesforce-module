@@ -10,7 +10,7 @@ repositories {
     } 
 }
 dependencies {
-  implementation "com.salesforce.service:chat-ui:4.3.3"
+  implementation "com.salesforce.service:chat-ui:4.3.4"
 }
 
 gradle.taskGraph.whenReady {taskGraph ->
@@ -37,3 +37,4 @@ ext.replaceResource = { ->
     println "replaced"
   }
 }
+
