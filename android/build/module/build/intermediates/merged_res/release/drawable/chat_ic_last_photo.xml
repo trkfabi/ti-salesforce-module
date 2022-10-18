@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright (c) 2017, salesforce.com, inc.
+  ~ All rights reserved.
+  ~
+  ~ Use of this software is subject to the salesforce.com Developerforce Terms of Use and other
+  ~ applicable terms that salesforce.com may make available, as may be amended from time to time.
+  ~ You may not decompile, reverse engineer, disassemble, attempt to derive the source code of,
+  ~ decrypt, modify, or create derivative works of this software, updates thereto, or any part
+  ~ thereof. You may not use the software to engage in any development activity that infringes the
+  ~ rights of a third party, including that which interferes with, damages, or accesses in an
+  ~ unauthorized manner the servers, networks, or other properties or services of salesforce.com or
+  ~ any third party.
+  ~ ​
+  ~ WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+  ~ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL SALESFORCE.COM HAVE ANY LIABILITY
+  ~ FOR ANY DAMAGES, INCLUDING BUT NOT LIMITED TO, DIRECT, INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE,
+  ~ OR CONSEQUENTIAL DAMAGES, OR DAMAGES BASED ON LOST PROFITS, DATA OR USE, IN CONNECTION WITH THE
+  ~ SOFTWARE, HOWEVER CAUSED AND, WHETHER IN CONTRACT, TORT OR UNDER ANY OTHER THEORY OF LIABILITY,
+  ~ WHETHER OR NOT YOU HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="48dp"
+        android:height="48dp"
+        android:viewportHeight="24.0"
+        android:viewportWidth="24.0">
+    <path
+        android:fillColor="@color/salesforce_contrast_secondary"
+        android:pathData="M20,1.667C20,0.75 19.25,0 18.333,0L1.667,0C0.75,0 0,0.75 0,1.667L0,15c0,0.917 0.75,1.667 1.667,1.667h16.666c0.917,0 1.667,-0.75 1.667,-1.667L20,1.667zM15.667,13.333L3.583,13.333a0.632,0.632 0,0 1,-0.541 -0.958L6.708,6c0.167,-0.292 0.542,-0.292 0.709,0l2.208,3.792c0.167,0.25 0.542,0.291 0.708,0.041l1.792,-2.583a0.428,0.428 0,0 1,0.708 0l3.292,5.25c0.25,0.375 0,0.833 -0.458,0.833zM14.583,5.833c-0.916,0 -1.666,-0.75 -1.666,-1.666 0,-0.917 0.75,-1.667 1.666,-1.667 0.917,0 1.667,0.75 1.667,1.667 0,0.916 -0.75,1.666 -1.667,1.666z"/>
+</vector>

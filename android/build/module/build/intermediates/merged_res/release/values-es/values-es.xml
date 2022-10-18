@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals doc="Estimated wait time value in minutes displayed in the Minimized View and Fullscreen View" name="chat_estimated_wait_time_minutes">
+        <!-- Estimated wait time "1 minute" -->
+        <item quantity="one">%1$s minuto</item>
+        <!-- Estimated wait time "5 minutes" -->
+        <item quantity="other">%1$s minutos</item>
+    </plurals>
+    <plurals doc="Content description for the unread message count displayed on the Minimized View." name="chat_minimized_unread_message_count">
+        <item quantity="one">%1$d mensaje sin leer de %2$s</item>
+        <item quantity="other">%1$d mensajes sin leer de %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string doc="Content description for agent avatar" name="agent_has_joined_conference_avatar_description">
+        Agente de conferencia de grupo
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown to users when an             additional agent has joined an existing chat session" name="agent_has_joined_conference_message">
+        %1$s se unió al chat - %2$s
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown when an agent has left an             existing group conference chat session" name="agent_has_left_conference_message">
+        %1$s abandonó el chat - %2$s
+    </string>
+    <string doc="String read out by a screen reader when the agent starts typing" name="agent_is_typing">%1$s está escribiendo
+    </string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string doc="Message text shown to users in a banner when they reconnect during a chat session" name="chat_connection_banner_connected_text">
+        ¡Conectado!
+    </string>
+    <string doc="Message text shown to users in a banner when they are disconnected during a chat session" name="chat_connection_banner_disconnected_text">Tenemos problemas para conectar. Lo seguiremos intentando.
+    </string>
+    <string doc="The connection lost banner text." name="chat_connection_lost_banner_text">
+        Se perdió la conexión</string>
+    <string doc="The message in the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_message">
+        ¿Está seguro de que desea finalizar la sesión de chat?
+    </string>
+    <string doc="The positive button text shown in the End Session confirmation dialog." name="chat_dialog_end_session_positive">
+        Finalizar sesión
+    </string>
+    <string doc="The title of the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_title">
+        ¿Se está despidiendo?
+    </string>
+    <string doc="The negative button text shown in the End Session confirmation dialog." name="chat_dialog_negative">
+        Cancelar
+    </string>
+    <string doc="Menu option displayed to the user that lets them take a photo with their camera and             send it to the agent." name="chat_dialog_select_image_source_camera">
+        Realizar fotografía
+    </string>
+    <string doc="Menu option displayed to the user that lets them choose a photo from their phone&apos;s             photo gallery app to send to the agent." name="chat_dialog_select_image_source_choose">
+        Seleccionar desde galería
+    </string>
+    <string doc="Menu option displayed to the user that lets them send the last photo they took with             their camera to the agent." name="chat_dialog_select_image_source_last_photo">
+        Utilizar última fotografía realizada
+    </string>
+    <string doc="Content description for buttons that will end the chat session if pressed." name="chat_end_session_content_description">
+        Finalizar sesión de chat</string>
+    <string doc="Content description for the chat feed view." name="chat_feed_content_description">
+        Los mensajes de chat se muestran aquí
+    </string>
+    <string doc="The toolbar title text that is visible on the chat feed." name="chat_feed_title" translatable="false">
+        @string/pre_chat_toolbar_title</string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been             cancelled by the agent." name="chat_file_transfer_canceled">
+        Transferencia de archivo cancelada
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been completed." name="chat_file_transfer_completed">
+        Su archivo ha sido transferido
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has failed." name="chat_file_transfer_failed">
+        Fallo de transferencia de archivo
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when the agent has requested a file             transfer from the user." name="chat_file_transfer_requested">
+        Transferencia de archivo solicitada
+    </string>
+    <string doc="Content description applied to the chat session footer menu at the bottom of the Chat Feed." name="chat_footer_menu_button_content_description">
+        Ver opciones de sesión de chat
+    </string>
+    <string doc="Content description applied to the footer menu collapse button on the chat bot footer menu." name="chat_footer_menu_collapse_content_description">
+        Contraer menú
+    </string>
+    <string doc="Label text displayed at the top of the chat bot footer menu." name="chat_footer_menu_header_label">
+        Opciones de menú
+    </string>
+    <string doc="The status text description on the Fullscreen View while the session is attempting             to connect to the server." name="chat_fullscreen_connecting_description">
+        Utilice el icono de minimización para contraer el chat
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session has been         disconnected." name="chat_fullscreen_connecting_disconnected_description">
+        Cierre el chat y vuelva a intentarlo más tarde
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session has been disconnected." name="chat_fullscreen_connecting_disconnected_title">
+        Se le ha desconectado
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session connecting has         encountered an error." name="chat_fullscreen_connecting_error_description">
+        Asegúrese de que dispone de conexión
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session connection has         encountered an error." name="chat_fullscreen_connecting_error_title">
+        Vaya, parece que algo ha fallado...
+    </string>
+    <string doc="Content description for the fullscreen chat minimize connecting icon." name="chat_fullscreen_connecting_minimize_content_description" translatable="false">
+        @string/chat_fullscreen_connecting_description
+    </string>
+    <string doc="The status text title displayed on the Fullscreen View while the session is attempting to         connect to the server." name="chat_fullscreen_connecting_title">
+        Conectando con chat
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_fullscreen_queued_ewt_long">Estamos sufriendo tiempos de espera más largos de lo esperado.
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is unknown." name="chat_fullscreen_queued_ewt_short">Estaremos con usted en el momento que haya un agente disponible.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is unknown or very large." name="chat_fullscreen_queued_ewt_text_alternative_title">No desespere…
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_description">Estaremos con usted en el momento que haya un agente disponible.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_title">Su tiempo de espera estimado es:
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_description">Estaremos con usted en el momento que haya un agente disponible.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_title">Su lugar en la cola
+    </string>
+    <string doc="Message displayed to the user when Chat has failed to load a photo from their photo             gallery app." name="chat_image_selection_failed">
+        No se puede cargar la fotografía
+    </string>
+    <string doc="Displayed to the user when their message could not be delivered." name="chat_message_delivery_failed">
+        Mensaje no enviado
+    </string>
+    <string doc="Displayed to the user in the Chat feed when they have sent a message in violation             of Sensitive Data Rules and their text has been modified." name="chat_message_modified">
+        Los datos confidenciales se retiraron del mensaje
+    </string>
+    <string doc="Displayed to the user when their message could not be delivered because it violates             Sensitive Data Rules." name="chat_message_not_sent_privacy">
+        No se envió el mensaje porque contiene datos confidenciales
+    </string>
+    <string doc="The Notification Channel ID used when posting notifications to inform the user that             a message has been received from the chat agent. Used on devices running Android Oreo              and later. Not translatable." name="chat_message_notification_channel_id" translatable="false">
+        chat_messages_channel
+    </string>
+    <string doc="The name of the Notification Channel used when posting notifications to inform the              user that a message has been received from the chat agent. Used on devices running              Android Oreo and later. " name="chat_message_notification_channel_name">
+        Mensajes de Chat
+    </string>
+    <string doc="Content description for the Minimize action menu item that is shown on the Chat             Feed Activity." name="chat_minimize_content_description">
+        Minimizar chat</string>
+    <string doc="The status text displayed on the Minimized View while the session is attempting to             connect to the server." name="chat_minimized_connecting">
+        Conectando con chat…</string>
+    <string doc="The status text displayed on the Minimized View after the session has ended." name="chat_minimized_post_session">
+        La sesión ha finalizado
+    </string>
+    <string doc="The status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued">
+        Su lugar en la cola
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_minimized_queued_ewt_long">Tiempo de espera ampliado
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time unknown." name="chat_minimized_queued_ewt_short">Esperando un agente
+    </string>
+    <string doc="The estimated wait time status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued_ewt_title">
+        Tiempo de espera:
+    </string>
+    <string doc="Message displayed to the user when the user has denied permission to access their             camera or photos." name="chat_permission_not_granted">
+        No se otorgó permiso
+    </string>
+    <string doc="First line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string">
+        Vaya, parece que algo ha fallado...
+    </string>
+    <string doc="Second line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string_subtext">
+        La solicitud de chat falló debido a un error desconocido. Inténtelo de nuevo.
+    </string>
+    <string doc="The message text displayed on the Chat Service notification. This text is visible              in the Android notification bar when a Chat session is active." name="chat_service_description">
+        Ahora está chateando con un agente
+    </string>
+    <string doc="The name of the Notification Channel used when posting the foreground service              notification used by Chat on devices running Android Oreo and later." name="chat_service_notification_channel_name">
+        Servicio Live Chat
+    </string>
+    <string doc="The title text displayed on the Chat Service notification. This text is visible in              the Android notification bar when a Chat session is active." name="chat_service_title">
+        Chat de Service Cloud
+    </string>
+    <string doc="Message displayed to the user when an agent transfer is in progress." name="chat_session_button_transfer_initiated">
+        Transfiriéndole a un agente</string>
+    <string doc="Message text shown to the user when the agent ends a chat session." name="chat_session_ended_by_agent">
+        El agente ha finalizado la sesión
+    </string>
+    <string doc="Message displayed to the user when an agent joins the chat." name="chat_session_transferred_to_agent">
+        %1$s se unió al chat</string>
+    <string doc="Message text shown to the user when no agents are available for a chat session." name="chatbot_transfer_no_agents_available_message">
+        ¡Lo sentimos!\nNo hay agentes disponibles.
+    </string>
+    <string doc="The text of the cancel button displayed while transferring from a chat bot to an agent." name="chatbot_transferring_cancel_button_text">
+        Finalizar sesión
+    </string>
+    <string doc="Message displayed to the user when transferring from a chat bot to an agent." name="chatbot_transferring_connecting_message">
+        Conectando con un agente,\nespere unos momentos
+    </string>
+    <string doc="The toolbar title displayed while transferring from a chat bot to a live agent" name="chatbot_transferring_toolbar_title">
+        Transfiriendo
+    </string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string doc="Open Graph URL standard text for knowledge article hyperlink preview" name="hyperlink_preview_knowledge_article_url_title">Artículo de Knowledge
+    </string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string doc="Text shown to the user at the top of the pre-chat screen." name="pre_chat_banner_text">
+        Solo un par de cosas antes de que le conectemos con un experto...
+    </string>
+    <string doc="Label text for the button to start a session after completing the pre-chat screen." name="pre_chat_button_start">
+        Chatear con un agente
+    </string>
+    <string doc="Content description applied to the list of fields displayed on the pre-chat screen." name="pre_chat_field_list_description">
+        Una lista de los campos que hay que cumplimentar se muestra aquí.
+    </string>
+    <string doc="Default text value applied to a picklist when no selection has been made." name="pre_chat_picklist_select_hint">
+        Seleccione un valor…</string>
+    <string doc="The title text that appears on the toolbar of the pre-chat screen." name="pre_chat_toolbar_title">
+        Live Chat
+    </string>
+    <string doc="Content description applied to the close button on the Minimized View." name="salesforce_close_minimize_view_content_description" translatable="false">
+        @string/chat_end_session_content_description
+    </string>
+    <string doc="The input hint text displayed in the message input area at the bottom of the Chat Feed." name="salesforce_message_input_hint">
+        Enviar un mensaje...
+    </string>
+    <string doc="Content description applied to the photo selection button at the bottom of the Chat Feed." name="salesforce_select_photo_content_description">
+        Seleccione una fotografía
+    </string>
+    <string doc="Content description applied to the message send button at the bottom of the Chat Feed." name="salesforce_send_message_content_description">
+        Enviar mensaje
+    </string>
+    <string doc="Content description applied to the user&apos;s sent photo as it appears in the Chat Feed." name="salesforce_sent_photo_content_description">
+        Fotografía adjunta
+    </string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

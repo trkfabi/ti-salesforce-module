@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals doc="Estimated wait time value in minutes displayed in the Minimized View and Fullscreen View" name="chat_estimated_wait_time_minutes">
+        <!-- Estimated wait time "1 minute" -->
+        <item quantity="one">%1$s minut</item>
+        <!-- Estimated wait time "5 minutes" -->
+        <item quantity="other">%1$s minuter</item>
+    </plurals>
+    <plurals doc="Content description for the unread message count displayed on the Minimized View." name="chat_minimized_unread_message_count">
+        <item quantity="one">%1$d oläst meddelande från %2$s</item>
+        <item quantity="other">%1$d olästa meddelande från %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ny avisering</item>
+    <item quantity="other">%d nya aviseringar</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigera hem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÅ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt + "</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl + "</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"retur"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktion + "</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta + "</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Skift + "</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"blanksteg"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Symbol + "</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meny + "</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string doc="Content description for agent avatar" name="agent_has_joined_conference_avatar_description">
+        Gruppkonferensagent
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown to users when an             additional agent has joined an existing chat session" name="agent_has_joined_conference_message">
+        %1$s har gått med i chatten - %2$s
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown when an agent has left an             existing group conference chat session" name="agent_has_left_conference_message">
+        %1$s lämnade chatten - %2$s
+    </string>
+    <string doc="String read out by a screen reader when the agent starts typing" name="agent_is_typing">%1$s skriver
+    </string>
+    <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
+    <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
+    <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
+    <string doc="Message text shown to users in a banner when they reconnect during a chat session" name="chat_connection_banner_connected_text">
+        Ansluten!
+    </string>
+    <string doc="Message text shown to users in a banner when they are disconnected during a chat session" name="chat_connection_banner_disconnected_text">Problem att ansluta. Vi fortsätter att försöka.
+    </string>
+    <string doc="The connection lost banner text." name="chat_connection_lost_banner_text">
+        Anslutning förlorad</string>
+    <string doc="The message in the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_message">
+        Är du säker på att du vill avsluta chattsessionen?
+    </string>
+    <string doc="The positive button text shown in the End Session confirmation dialog." name="chat_dialog_end_session_positive">
+        Avsluta session
+    </string>
+    <string doc="The title of the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_title">
+        Säger du adjö?
+    </string>
+    <string doc="The negative button text shown in the End Session confirmation dialog." name="chat_dialog_negative">
+        Avbryt
+    </string>
+    <string doc="Menu option displayed to the user that lets them take a photo with their camera and             send it to the agent." name="chat_dialog_select_image_source_camera">
+        Ta bild
+    </string>
+    <string doc="Menu option displayed to the user that lets them choose a photo from their phone&apos;s             photo gallery app to send to the agent." name="chat_dialog_select_image_source_choose">
+        Välj från galleri
+    </string>
+    <string doc="Menu option displayed to the user that lets them send the last photo they took with             their camera to the agent." name="chat_dialog_select_image_source_last_photo">
+        Använd den senaste bilden
+    </string>
+    <string doc="Content description for buttons that will end the chat session if pressed." name="chat_end_session_content_description">
+        Avsluta chattsession</string>
+    <string doc="Content description for the chat feed view." name="chat_feed_content_description">
+        Chattmeddelanden visas här
+    </string>
+    <string doc="The toolbar title text that is visible on the chat feed." name="chat_feed_title" translatable="false">
+        @string/pre_chat_toolbar_title</string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been             cancelled by the agent." name="chat_file_transfer_canceled">
+        Filöverföring avbruten
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been completed." name="chat_file_transfer_completed">
+        Din fil har överförts
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has failed." name="chat_file_transfer_failed">
+        Filöverföring misslyckades
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when the agent has requested a file             transfer from the user." name="chat_file_transfer_requested">
+        Filöverföring begärd
+    </string>
+    <string doc="Content description applied to the chat session footer menu at the bottom of the Chat Feed." name="chat_footer_menu_button_content_description">
+        Visa alternativ för chattsession
+    </string>
+    <string doc="Content description applied to the footer menu collapse button on the chat bot footer menu." name="chat_footer_menu_collapse_content_description">
+        Komprimera meny
+    </string>
+    <string doc="Label text displayed at the top of the chat bot footer menu." name="chat_footer_menu_header_label">
+        Menyalternativ
+    </string>
+    <string doc="The status text description on the Fullscreen View while the session is attempting             to connect to the server." name="chat_fullscreen_connecting_description">
+        Använd minimeringsikonen för att krympa chatten
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session has been         disconnected." name="chat_fullscreen_connecting_disconnected_description">
+        Stäng chatten och försök igen senare
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session has been disconnected." name="chat_fullscreen_connecting_disconnected_title">
+        Du har frånkopplats
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session connecting has         encountered an error." name="chat_fullscreen_connecting_error_description">
+        Se till att du är online
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session connection has         encountered an error." name="chat_fullscreen_connecting_error_title">
+        Hmm, något gick fel...
+    </string>
+    <string doc="Content description for the fullscreen chat minimize connecting icon." name="chat_fullscreen_connecting_minimize_content_description" translatable="false">
+        @string/chat_fullscreen_connecting_description
+    </string>
+    <string doc="The status text title displayed on the Fullscreen View while the session is attempting to         connect to the server." name="chat_fullscreen_connecting_title">
+        Ansluter till chatt
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_fullscreen_queued_ewt_long">Väntetiderna som vi erfar är längre än förväntade.
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is unknown." name="chat_fullscreen_queued_ewt_short">Vi kommer vara med er så snart en agent är tillgänglig.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is unknown or very large." name="chat_fullscreen_queued_ewt_text_alternative_title">Vänta lite...
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_description">Vi kommer vara med er så snart en agent är tillgänglig.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_title">Din uppskattade väntetid är:
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_description">Vi kommer vara med er så snart en agent är tillgänglig.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_title">Din plats i kön
+    </string>
+    <string doc="Message displayed to the user when Chat has failed to load a photo from their photo             gallery app." name="chat_image_selection_failed">
+        Det gick inte att läsa in foto
+    </string>
+    <string doc="Displayed to the user when their message could not be delivered." name="chat_message_delivery_failed">
+        Meddelande skickades inte
+    </string>
+    <string doc="Displayed to the user in the Chat feed when they have sent a message in violation             of Sensitive Data Rules and their text has been modified." name="chat_message_modified">
+        Känsliga data har tagits bort från meddelandet
+    </string>
+    <string doc="Displayed to the user when their message could not be delivered because it violates             Sensitive Data Rules." name="chat_message_not_sent_privacy">
+        Meddelande skickades inte eftersom det innehåller känsliga data
+    </string>
+    <string doc="The Notification Channel ID used when posting notifications to inform the user that             a message has been received from the chat agent. Used on devices running Android Oreo              and later. Not translatable." name="chat_message_notification_channel_id" translatable="false">
+        chat_messages_channel
+    </string>
+    <string doc="The name of the Notification Channel used when posting notifications to inform the              user that a message has been received from the chat agent. Used on devices running              Android Oreo and later. " name="chat_message_notification_channel_name">
+        Chattmeddelanden
+
+    </string>
+    <string doc="Content description for the Minimize action menu item that is shown on the Chat             Feed Activity." name="chat_minimize_content_description">
+        Minimera chatt</string>
+    <string doc="The status text displayed on the Minimized View while the session is attempting to             connect to the server." name="chat_minimized_connecting">
+        Ansluter till chatt…</string>
+    <string doc="The status text displayed on the Minimized View after the session has ended." name="chat_minimized_post_session">
+        Sessionen har avslutats
+    </string>
+    <string doc="The status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued">
+        Din plats i kön
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_minimized_queued_ewt_long">Förlängd väntetid
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time unknown." name="chat_minimized_queued_ewt_short">Väntar på en agent
+    </string>
+    <string doc="The estimated wait time status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued_ewt_title">
+        Väntetid:
+    </string>
+    <string doc="Message displayed to the user when the user has denied permission to access their             camera or photos." name="chat_permission_not_granted">
+        Behörighet beviljades inte
+    </string>
+    <string doc="First line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string">
+        Hmm, något gick fel...
+    </string>
+    <string doc="Second line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string_subtext">
+        Chattbegäran misslyckades på grund av ett okänt fel. Försök igen.
+    </string>
+    <string doc="The message text displayed on the Chat Service notification. This text is visible              in the Android notification bar when a Chat session is active." name="chat_service_description">
+     Du chattar nu med en agent
+</string>
+    <string doc="The name of the Notification Channel used when posting the foreground service              notification used by Chat on devices running Android Oreo and later." name="chat_service_notification_channel_name">
+        Live chattjänst
+    </string>
+    <string doc="The title text displayed on the Chat Service notification. This text is visible in              the Android notification bar when a Chat session is active." name="chat_service_title">
+       Service Cloud-chatt</string>
+    <string doc="Message displayed to the user when an agent transfer is in progress." name="chat_session_button_transfer_initiated">
+        Överför dig till en agent</string>
+    <string doc="Message text shown to the user when the agent ends a chat session." name="chat_session_ended_by_agent">
+        Agenten avslutade sessionen
+    </string>
+    <string doc="Message displayed to the user when an agent joins the chat." name="chat_session_transferred_to_agent">
+        %1$s har gått med i chatten</string>
+    <string doc="Message text shown to the user when no agents are available for a chat session." name="chatbot_transfer_no_agents_available_message">
+        Tyvärr!\nDet finns inga tillgängliga agenter.
+    </string>
+    <string doc="The text of the cancel button displayed while transferring from a chat bot to an agent." name="chatbot_transferring_cancel_button_text">
+        Avsluta session
+    </string>
+    <string doc="Message displayed to the user when transferring from a chat bot to an agent." name="chatbot_transferring_connecting_message">
+        Ansluter till en agent,\nvänta ett ögonblick.
+    </string>
+    <string doc="The toolbar title displayed while transferring from a chat bot to a live agent" name="chatbot_transferring_toolbar_title">
+        
+      Överför
+    </string>
+    <string name="clear_text_end_icon_content_description">Rensa text</string>
+    <string name="error_icon_content_description">Fel</string>
+    <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
+    <string doc="Open Graph URL standard text for knowledge article hyperlink preview" name="hyperlink_preview_knowledge_article_url_title">Knowledge-artikel
+    </string>
+    <string name="icon_content_description">Dialogikon</string>
+    <string name="item_view_role_description">Flik</string>
+    <string name="material_clock_toggle_content_description">Välj mellan FM och EM</string>
+    <string name="material_hour_selection">Ange timme</string>
+    <string name="material_hour_suffix">Klockan %1$s</string>
+    <string name="material_minute_selection">Välj minuter</string>
+    <string name="material_minute_suffix">%1$s minuter</string>
+    <string name="material_timepicker_am">FM</string>
+    <string name="material_timepicker_clock_mode_description">Byt till klockläget och ange tid.</string>
+    <string name="material_timepicker_hour">Timme</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">EM</string>
+    <string name="material_timepicker_select_time">Välj tid</string>
+    <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
+    <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
+    <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Fler än %1$d nya aviseringar</string>
+    <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
+    <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Välj datum</string>
+    <string name="mtrl_picker_date_header_unselected">Valt datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolumn med dagar: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ogiltigt format.</string>
+    <string name="mtrl_picker_invalid_format_example">Exempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Använd %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ogiltigt intervall.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigera till år %1$s</string>
+    <string name="mtrl_picker_out_of_range">Utanför intervallet: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–slutdatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Välj intervall</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum–slutdatum</string>
+    <string name="mtrl_picker_save">Spara</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Slutdatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Byt till kalender som inmatningsläge</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string name="password_toggle_content_description">Visa lösenord</string>
+    <string doc="Text shown to the user at the top of the pre-chat screen." name="pre_chat_banner_text">
+        Bara några saker innan vi ansluter dig till en expert...
+    </string>
+    <string doc="Label text for the button to start a session after completing the pre-chat screen." name="pre_chat_button_start">
+        Chatta med en agent
+    </string>
+    <string doc="Content description applied to the list of fields displayed on the pre-chat screen." name="pre_chat_field_list_description">
+        En lista över fält att fylla i visas här.
+    </string>
+    <string doc="Default text value applied to a picklist when no selection has been made." name="pre_chat_picklist_select_hint">
+        Välj ett värde...</string>
+    <string doc="The title text that appears on the toolbar of the pre-chat screen." name="pre_chat_toolbar_title">
+        Livechatt
+    </string>
+    <string doc="Content description applied to the close button on the Minimized View." name="salesforce_close_minimize_view_content_description" translatable="false">
+        @string/chat_end_session_content_description
+    </string>
+    <string doc="The input hint text displayed in the message input area at the bottom of the Chat Feed." name="salesforce_message_input_hint">
+        Skicka ett meddelande...
+    </string>
+    <string doc="Content description applied to the photo selection button at the bottom of the Chat Feed." name="salesforce_select_photo_content_description">
+        Välj en bild
+    </string>
+    <string doc="Content description applied to the message send button at the bottom of the Chat Feed." name="salesforce_send_message_content_description">
+        Skicka meddelande
+    </string>
+    <string doc="Content description applied to the user&apos;s sent photo as it appears in the Chat Feed." name="salesforce_sent_photo_content_description">
+        Bifogad bild
+    </string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Sök"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

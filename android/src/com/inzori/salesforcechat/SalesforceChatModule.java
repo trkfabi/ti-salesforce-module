@@ -8,15 +8,11 @@
  */
 package com.inzori.salesforcechat;
 
-import android.app.Activity;
 import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.kroll.KrollDict;
-import org.appcelerator.kroll.KrollFunction;
-import org.appcelerator.kroll.KrollProxy;
 
 import org.appcelerator.titanium.TiApplication;
-import org.appcelerator.kroll.common.TiConfig;
 import org.appcelerator.kroll.common.Log;
 
 import com.salesforce.android.service.common.utilities.control.Async;
@@ -25,29 +21,29 @@ import com.salesforce.android.chat.core.ChatConfiguration;
 import com.salesforce.android.chat.core.SessionStateListener;
 import com.salesforce.android.chat.core.SessionInfoListener;
 
+import com.salesforce.android.chat.core.model.ChatSessionState;
+import com.salesforce.android.chat.core.model.ChatEndReason;
+import com.salesforce.android.chat.core.model.AgentInformation;
+import com.salesforce.android.chat.core.model.ChatWindowMenu;
+import com.salesforce.android.chat.core.model.ChatWindowMenu.MenuItem;
+import com.salesforce.android.chat.core.model.ChatWindowButtonMenu.Button;
+import com.salesforce.android.chat.core.model.ChatWindowButtonMenu;
+import com.salesforce.android.chat.core.model.ChatWindowButtonMenu.Button;
+import com.salesforce.android.chat.core.model.ChatMessage;
+import com.salesforce.android.chat.core.model.ChatFooterMenu;
+import com.salesforce.android.chat.core.model.ChatSessionInfo;
+
 import com.salesforce.android.chat.ui.ChatUIConfiguration;
 import com.salesforce.android.chat.ui.ChatUI;
 import com.salesforce.android.chat.ui.ChatUIClient;
 import com.salesforce.android.chat.ui.ChatEventListener;
 
-import com.inzori.salesforcechat.MyEventListener;
-import com.inzori.salesforcechat.MySessionInfoListener;
-import com.inzori.salesforcechat.MySessionStateListener;
-
 @Kroll.module(name="SalesforceChat", id="com.inzori.salesforcechat")
 public class SalesforceChatModule extends KrollModule
 {
-
 	// Standard Debugging variables
 	private static final String LCAT = "SalesforceChatModule";
-	private static final boolean DBG = TiConfig.LOGD;
 	private static TiApplication mApp;
-	private static MySessionStateListener mSessionStateListener;
-	private static MyEventListener mEventListener;
-	private static MySessionInfoListener mSessionInfoListener;
-
-	private static TiApplication appContext = TiApplication.getInstance();
-	private static Activity activity = appContext.getCurrentActivity();
 
 	public SalesforceChatModule()
 	{
@@ -57,25 +53,8 @@ public class SalesforceChatModule extends KrollModule
 	@Kroll.onAppCreate
 	public static void onAppCreate(TiApplication app)
 	{
-		mApp = app;
 		Log.w(LCAT, "inside onAppCreate");
-		// put module init code that needs to run when the application is created
-		mSessionStateListener = new MySessionStateListener();
-		mEventListener = new MyEventListener();
-		mSessionInfoListener = new MySessionInfoListener();				
-	}
 
-	@Kroll.method
-	public SessionStateListener getSessionStateListener () {
-		return mSessionStateListener;
-	}
-	@Kroll.method
-	public ChatEventListener getEventListener () {
-		return mEventListener;
-	}
-	@Kroll.method
-	public SessionInfoListener getSessionInfoListener () {
-		return mSessionInfoListener;
 	}
 
 	@Kroll.method
@@ -108,7 +87,7 @@ public class SalesforceChatModule extends KrollModule
 
 			ChatUIConfiguration.Builder uiConfig = new ChatUIConfiguration.Builder()
 				.chatConfiguration(chatConfiguration)
-				.chatEventListener(getEventListener());
+				.chatEventListener(new MyEventListener());
 							
 			ChatUI.configure(ChatUIConfiguration.create(chatConfiguration))
 				.createClient(TiApplication.getInstance().getApplicationContext())
@@ -116,17 +95,173 @@ public class SalesforceChatModule extends KrollModule
 					@Override public void handleResult (Async<?> operation, 
 					ChatUIClient chatUIClient) {
 
-						SessionStateListener sessionStateListener = getSessionStateListener();
+						SessionStateListener sessionStateListener = new MySessionStateListener();
 						chatUIClient.addSessionStateListener(sessionStateListener);
 		
-						SessionInfoListener sessionInfoListener = getSessionInfoListener();
+						SessionInfoListener sessionInfoListener = new MySessionInfoListener();
 						chatUIClient.addSessionInfoListener(sessionInfoListener);
 		
 						chatUIClient.startChatSession(TiApplication.getAppCurrentActivity());
 					}
-			});										  
+			});		
+			
 		}  catch (Exception e) {
 			Log.e(LCAT, "error" , e);
 		}
 	}
+
+	public class MySessionStateListener implements SessionStateListener{
+		private static final String LCAT = "SalesforceChatModule - MySessionStateListener";
+	  
+		@Override public void onSessionStateChange (ChatSessionState state) {
+		  String stateName = "UNKNOWN";
+		  //Log.w(LCAT, "session state: " + state.toString());
+	  
+		  if (state == ChatSessionState.Ready) {
+			// TODO: Handle the disconnected state change
+			stateName = "READY";
+		  }
+		  if (state == ChatSessionState.Verification) {
+			// TODO: Handle the disconnected state change
+			stateName = "VERIFICATION";
+		  }    
+		  if (state == ChatSessionState.Initializing) {
+			// TODO: Handle the disconnected state change
+			stateName = "INITIALIZING";
+		  }    
+		  if (state == ChatSessionState.Connecting) {
+			// TODO: Handle the disconnected state change
+			stateName = "CONNECTING";
+		  }    
+		  if (state == ChatSessionState.InQueue) {
+			// TODO: Handle the disconnected state change
+			stateName = "INQUEUE";
+		  }    
+		  if (state == ChatSessionState.Connected) {
+			// TODO: Handle the disconnected state change
+			stateName = "CONNECTED";
+		  }    
+		  if (state == ChatSessionState.Ending) {
+			// TODO: Handle the disconnected state change
+			stateName = "ENDING";
+		  }    
+		  if (state == ChatSessionState.Disconnected) {
+			// TODO: Handle the disconnected state change
+			stateName = "DISCONNECTED";
+		  } 
+	  
+		  KrollDict eventData = new KrollDict();
+		  eventData.put("state",stateName);
+		  fireEvent("salesforce_chat:session_state", eventData);
+		}
+	  
+		@Override public void onSessionEnded (ChatEndReason endReason) {
+		  //Log.w(LCAT, "session end reason: " + endReason.toString());
+		  String reasonName = "UNKNOWN";
+	  
+		  if (endReason == ChatEndReason.EndedByAgent) {
+			reasonName = "AGENT";
+		  }
+		  if (endReason == ChatEndReason.EndedByClient) {
+			reasonName = "USER";
+		  }
+		  if (endReason == ChatEndReason.LiveAgentTimeout) {
+			reasonName = "TIMEOUT";
+		  }
+		  if (endReason == ChatEndReason.NetworkError) {
+			reasonName = "ERROR";
+		  }
+		  if (endReason == ChatEndReason.NoAgentsAvailable) {
+			reasonName = "NOAGENTSAVAILABLE";
+		  }  
+		  if (endReason == ChatEndReason.VerificationError) {
+			reasonName = "ERROR";
+		  }               
+		  KrollDict eventData = new KrollDict();
+		  eventData.put("reason",reasonName);
+		  fireEvent("salesforce_chat:session_end", eventData);
+		}
+	  
+	}	
+
+	public class MyEventListener implements ChatEventListener {
+		private static final String LCAT = "SalesforceChatModule - MyEventListener";
+		private static final String eventName = "salesforce_chat:session_event";
+	
+		public void agentJoined (AgentInformation agentInformation) {
+			// Handle agent joined
+			//Log.w(LCAT, "agent: " + agentInformation.getAgentName() + " isBot: " + agentInformation.isChatBot());
+			KrollDict eventData = new KrollDict();
+			eventData.put("name", "AGENTJOINED");   
+			eventData.put("data", agentInformation);
+			fireEvent(eventName, eventData);         
+		}
+	
+		public void processedOutgoingMessage (String message) {
+			// Handle outgoing message processed
+			//Log.w(LCAT, "out message: " + message);
+			KrollDict eventData = new KrollDict();
+			eventData.put("name", "PROCESSEDOUTGOINGMESSAGE");   
+			eventData.put("data", message);   
+			fireEvent(eventName, eventData);         
+		}
+	
+		public void didSelectMenuItem (ChatWindowMenu.MenuItem menuItem) {
+			// Handle chatbot menu selected
+			KrollDict eventData = new KrollDict();
+			eventData.put("name", "ITEMSELECTED");    
+			fireEvent(eventName, eventData);    
+		}
+	
+		public void didSelectButtonItem (ChatWindowButtonMenu.Button buttonItem) {
+			// Handle chatbot button selected
+			KrollDict eventData = new KrollDict();
+			eventData.put("name", "BUTTONSELECTED");    
+			fireEvent(eventName, eventData);  
+		}
+	
+		public void didSelectFooterMenuItem (ChatFooterMenu.MenuItem footerMenuItem) {
+			// Handle chatboot footer menu selected
+			KrollDict eventData = new KrollDict();
+			eventData.put("name", "FOOTERITEMSELECTED");    
+			fireEvent(eventName, eventData);  
+		}
+	
+		public void didReceiveMessage (ChatMessage chatMessage) {
+			//Log.w(LCAT, "in message: " + chatMessage.toString());
+			// Handle received message
+			KrollDict eventData = new KrollDict();
+			eventData.put("name", "MESSAGERECEIVED");    
+			fireEvent(eventName, eventData);          
+		}
+	
+		public void transferToButtonInitiated () {
+			// Handle transfer to agent
+			KrollDict eventData = new KrollDict();
+			eventData.put("name", "TRANSFERTOBUTTONINITIATED");    
+			fireEvent(eventName, eventData);  
+		}
+	
+		public void agentIsTyping (boolean isUserTyping) {
+			//Log.w(LCAT, "agent typing is user: " + isUserTyping);
+			// Handle typing update
+			KrollDict eventData = new KrollDict();
+			eventData.put("name", "AGENTISTYPING");    
+			fireEvent(eventName, eventData);  
+		}    
+	}	
+
+	public class MySessionInfoListener implements SessionInfoListener {
+		private static final String LCAT = "SalesforceChatModule - MySessionInfoListener";
+	
+		public void onSessionInfoReceived (ChatSessionInfo chatSessionInfo) {
+			//Log.w(LCAT, "session info: " + chatSessionInfo.toString());
+			// TO DO: Do something with the session ID
+			String sessionId = chatSessionInfo.getSessionId();
+			KrollDict eventData = new KrollDict();
+			eventData.put("sessionId",sessionId);   
+			fireEvent("salesforce_chat:session_info", eventData);         
+		}
+	   
+	}	
 }

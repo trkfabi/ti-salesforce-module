@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals doc="Estimated wait time value in minutes displayed in the Minimized View and Fullscreen View" name="chat_estimated_wait_time_minutes">
+        <!-- Estimated wait time "5 minutes" -->
+        <item quantity="other">%1$s phút</item>
+    </plurals>
+    <plurals doc="Content description for the unread message count displayed on the Minimized View." name="chat_minimized_unread_message_count">
+        <item quantity="other">%1$d thư chưa đọc từ %2$s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d thông báo mới</item>
+    <item quantity="other">%d thông báo mới</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Chỉ đường về nhà"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Di chuyển lên"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"TẮT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BẬT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Truy vấn tìm kiếm"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string doc="Content description for agent avatar" name="agent_has_joined_conference_avatar_description">
+        Tác nhân hội nghị nhóm
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown to users when an             additional agent has joined an existing chat session" name="agent_has_joined_conference_message">
+        %1$s đã tham gia cuộc trò chuyện - %2$s
+    </string>
+    <string doc="Message text (including %1$s agent name and %2$s current time) that is shown when an agent has left an             existing group conference chat session" name="agent_has_left_conference_message">
+        %1$s đã rời khỏi cuộc trò chuyện - %2$s
+    </string>
+    <string doc="String read out by a screen reader when the agent starts typing" name="agent_is_typing">%1$s đang nhập
+    </string>
+    <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
+    <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
+    <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
+    <string doc="Message text shown to users in a banner when they reconnect during a chat session" name="chat_connection_banner_connected_text">
+        Đã kết nối!
+    </string>
+    <string doc="Message text shown to users in a banner when they are disconnected during a chat session" name="chat_connection_banner_disconnected_text">Kết nối đang có vấn đề. Chúng tôi sẽ tiếp tục thử.
+    </string>
+    <string doc="The connection lost banner text." name="chat_connection_lost_banner_text">
+        Mất kết nối</string>
+    <string doc="The message in the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_message">
+        Bạn có chắc chắn muốn kết thúc phiên trò chuyện này không?
+    </string>
+    <string doc="The positive button text shown in the End Session confirmation dialog." name="chat_dialog_end_session_positive">
+        Kết Thúc Phiên
+    </string>
+    <string doc="The title of the dialog presented to the user when they attempt to end the chat             session." name="chat_dialog_end_session_title">
+        Tạm biệt?
+    </string>
+    <string doc="The negative button text shown in the End Session confirmation dialog." name="chat_dialog_negative">
+        Hủy Bỏ
+    </string>
+    <string doc="Menu option displayed to the user that lets them take a photo with their camera and             send it to the agent." name="chat_dialog_select_image_source_camera">
+        Chụp ảnh
+    </string>
+    <string doc="Menu option displayed to the user that lets them choose a photo from their phone&apos;s             photo gallery app to send to the agent." name="chat_dialog_select_image_source_choose">
+        Chọn từ thư viện
+    </string>
+    <string doc="Menu option displayed to the user that lets them send the last photo they took with             their camera to the agent." name="chat_dialog_select_image_source_last_photo">
+        Sử dụng ảnh chụp mới nhất
+    </string>
+    <string doc="Content description for buttons that will end the chat session if pressed." name="chat_end_session_content_description">
+        Kết thúc phiên trò truyện</string>
+    <string doc="Content description for the chat feed view." name="chat_feed_content_description">
+        Tin nhắn trò chuyện được hiển thị ở đây
+    </string>
+    <string doc="The toolbar title text that is visible on the chat feed." name="chat_feed_title" translatable="false">
+        @string/pre_chat_toolbar_title</string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been             cancelled by the agent." name="chat_file_transfer_canceled">
+        Đã hủy truyền tập tin
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has been completed." name="chat_file_transfer_completed">
+        Tập tin của bạn đã được truyền
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when a file transfer has failed." name="chat_file_transfer_failed">
+        Không truyền được tập tin
+    </string>
+    <string doc="Message displayed to the user in the Chat Feed when the agent has requested a file             transfer from the user." name="chat_file_transfer_requested">
+        Đã yêu cầu truyền tập tin
+    </string>
+    <string doc="Content description applied to the chat session footer menu at the bottom of the Chat Feed." name="chat_footer_menu_button_content_description">
+        Xem các tùy chọn phiên trò chuyện
+    </string>
+    <string doc="Content description applied to the footer menu collapse button on the chat bot footer menu." name="chat_footer_menu_collapse_content_description">
+        Thu gọn menu
+    </string>
+    <string doc="Label text displayed at the top of the chat bot footer menu." name="chat_footer_menu_header_label">
+        Tùy Chọn Menu
+    </string>
+    <string doc="The status text description on the Fullscreen View while the session is attempting             to connect to the server." name="chat_fullscreen_connecting_description">
+        Nhấn biểu tượng thu nhỏ để thu nhỏ cuộc trò chuyện
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session has been         disconnected." name="chat_fullscreen_connecting_disconnected_description">
+        Vui lòng đóng cuộc trò chuyện và thủ lại sau
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session has been disconnected." name="chat_fullscreen_connecting_disconnected_title">
+        Bạn đã ngắt kết nối
+    </string>
+    <string doc="The status text description on the Fullscreen View when the session connecting has         encountered an error." name="chat_fullscreen_connecting_error_description">
+        Hãy đảm bảo rằng bạn đang có kết nối mạng
+    </string>
+    <string doc="The status text title on the Fullscreen View when the session connection has         encountered an error." name="chat_fullscreen_connecting_error_title">
+        Rất tiếc, đã xảy ra sự cố…
+    </string>
+    <string doc="Content description for the fullscreen chat minimize connecting icon." name="chat_fullscreen_connecting_minimize_content_description" translatable="false">
+        @string/chat_fullscreen_connecting_description
+    </string>
+    <string doc="The status text title displayed on the Fullscreen View while the session is attempting to         connect to the server." name="chat_fullscreen_connecting_title">
+        Đang kết nối với cuộc trò chuyện…
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_fullscreen_queued_ewt_long">Thời gian chờ lâu hơn hơn dự kiến.
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is unknown." name="chat_fullscreen_queued_ewt_short">Chúng tôi sẽ quay lại với bạn ngay khi có nhân viên hỗ trợ.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is unknown or very large." name="chat_fullscreen_queued_ewt_text_alternative_title">Vui lòng đợi...
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_description">Chúng tôi sẽ quay lại với bạn ngay khi có nhân viên hỗ trợ.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued and estimated wait time is displayed in minutes." name="chat_fullscreen_queued_ewt_text_title">Thời gian chờ dự kiến là:
+    </string>
+    <string doc="The queued status text description on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_description">Chúng tôi sẽ quay lại với bạn ngay khi có nhân viên hỗ trợ.
+    </string>
+    <string doc="The queued status text title on the Fullscreen View when the session is queued." name="chat_fullscreen_queued_text_title">Địa điểm phù hợp của bạn
+    </string>
+    <string doc="Message displayed to the user when Chat has failed to load a photo from their photo             gallery app." name="chat_image_selection_failed">
+        Không thể tải hình ảnh
+    </string>
+    <string doc="Displayed to the user when their message could not be delivered." name="chat_message_delivery_failed">
+        Tin nhắn không được gửi đi
+    </string>
+    <string doc="Displayed to the user in the Chat feed when they have sent a message in violation             of Sensitive Data Rules and their text has been modified." name="chat_message_modified">
+        Dữ liệu nhạy cảm đã được xóa khỏi tin nhắn
+    </string>
+    <string doc="Displayed to the user when their message could not be delivered because it violates             Sensitive Data Rules." name="chat_message_not_sent_privacy">
+        Không gửi được tin nhắn vì có dữ liệu nhạy cảm
+    </string>
+    <string doc="The Notification Channel ID used when posting notifications to inform the user that             a message has been received from the chat agent. Used on devices running Android Oreo              and later. Not translatable." name="chat_message_notification_channel_id" translatable="false">
+        chat_messages_channel
+    </string>
+    <string doc="The name of the Notification Channel used when posting notifications to inform the              user that a message has been received from the chat agent. Used on devices running              Android Oreo and later. " name="chat_message_notification_channel_name">
+        Tin Nhắn Trò Chuyện
+    </string>
+    <string doc="Content description for the Minimize action menu item that is shown on the Chat             Feed Activity." name="chat_minimize_content_description">
+        Thu nhỏ cuộc trò chuyện</string>
+    <string doc="The status text displayed on the Minimized View while the session is attempting to             connect to the server." name="chat_minimized_connecting">
+        Đang kết nối với cuộc trò chuyện…</string>
+    <string doc="The status text displayed on the Minimized View after the session has ended." name="chat_minimized_post_session">
+        Phiên đã kết thúc
+    </string>
+    <string doc="The status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued">
+        Địa điểm phù hợp của bạn
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time is longer than the maximum estimated wait time." name="chat_minimized_queued_ewt_long">Thời gian chờ kéo dài
+    </string>
+    <string doc="Displayed in the fullscreen view when the estimated wait time unknown." name="chat_minimized_queued_ewt_short">Đang đợi nhân viên
+    </string>
+    <string doc="The estimated wait time status text displayed on the Minimized View while the user is waiting for an             agent to join the session." name="chat_minimized_queued_ewt_title">
+        Thời gian chờ:
+    </string>
+    <string doc="Message displayed to the user when the user has denied permission to access their             camera or photos." name="chat_permission_not_granted">
+        Không được cấp quyền
+    </string>
+    <string doc="First line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string">
+        Rất tiếc, đã xảy ra sự cố…
+    </string>
+    <string doc="Second line of error message displayed to the user if an error occurs launching the chat message feed." name="chat_resume_error_string_subtext">
+        Không thực hiện được yêu cầu trò chuyện do lỗi không xác định. Vui lòng thử lại.
+    </string>
+    <string doc="The message text displayed on the Chat Service notification. This text is visible              in the Android notification bar when a Chat session is active." name="chat_service_description">
+        Bạn đang trò chuyện với đại diện
+    </string>
+    <string doc="The name of the Notification Channel used when posting the foreground service              notification used by Chat on devices running Android Oreo and later." name="chat_service_notification_channel_name">
+        Dịch Vụ Live Chat
+    </string>
+    <string doc="The title text displayed on the Chat Service notification. This text is visible in              the Android notification bar when a Chat session is active." name="chat_service_title">
+        Cuộc Trò Chuyện Service Cloud
+    </string>
+    <string doc="Message displayed to the user when an agent transfer is in progress." name="chat_session_button_transfer_initiated">
+        Nối máy cho bạn tới một nhân viên</string>
+    <string doc="Message text shown to the user when the agent ends a chat session." name="chat_session_ended_by_agent">
+        Nhân viên đã kết thúc phiên
+    </string>
+    <string doc="Message displayed to the user when an agent joins the chat." name="chat_session_transferred_to_agent">
+        %1$s đã tham gia cuộc trò chuyện</string>
+    <string doc="Message text shown to the user when no agents are available for a chat session." name="chatbot_transfer_no_agents_available_message">
+        Rất tiếc!\nKhông có người đại diện nào cả.
+    </string>
+    <string doc="The text of the cancel button displayed while transferring from a chat bot to an agent." name="chatbot_transferring_cancel_button_text">
+        Kết Thúc Phiên
+    </string>
+    <string doc="Message displayed to the user when transferring from a chat bot to an agent." name="chatbot_transferring_connecting_message">
+        Đang kết nối với người đại diện,\nvui lòng đợi trong giây lát
+    </string>
+    <string doc="The toolbar title displayed while transferring from a chat bot to a live agent" name="chatbot_transferring_toolbar_title">
+        Đang Truyền
+    </string>
+    <string name="clear_text_end_icon_content_description">Xóa văn bản</string>
+    <string name="error_icon_content_description">Lỗi</string>
+    <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
+    <string doc="Open Graph URL standard text for knowledge article hyperlink preview" name="hyperlink_preview_knowledge_article_url_title">Bài viết cung cấp kiến thức
+    </string>
+    <string name="icon_content_description">Biểu tượng hộp thoại</string>
+    <string name="item_view_role_description">Thẻ</string>
+    <string name="material_clock_toggle_content_description">Chọn SA hoặc CH</string>
+    <string name="material_hour_selection">Chọn giờ</string>
+    <string name="material_hour_suffix">%1$s giờ</string>
+    <string name="material_minute_selection">Chọn phút</string>
+    <string name="material_minute_suffix">%1$s phút</string>
+    <string name="material_timepicker_am">SA</string>
+    <string name="material_timepicker_clock_mode_description">Chuyển sang chế độ đồng hồ để nhập thời gian.</string>
+    <string name="material_timepicker_hour">Giờ</string>
+    <string name="material_timepicker_minute">Phút</string>
+    <string name="material_timepicker_pm">CH</string>
+    <string name="material_timepicker_select_time">Chọn thời gian</string>
+    <string name="material_timepicker_text_input_mode_description">Chuyển sang chế độ nhập văn bản để nhập thời gian.</string>
+    <string name="mtrl_badge_numberless_content_description">Thông báo mới</string>
+    <string name="mtrl_chip_close_icon_content_description">Xóa %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Hơn %1$d thông báo mới</string>
+    <string name="mtrl_picker_a11y_next_month">Chuyển sang tháng tiếp theo</string>
+    <string name="mtrl_picker_a11y_prev_month">Chuyển về tháng trước</string>
+    <string name="mtrl_picker_announce_current_selection">Lựa chọn hiện tại: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Chọn ngày</string>
+    <string name="mtrl_picker_date_header_unselected">Ngày đã chọn</string>
+    <string name="mtrl_picker_day_of_week_column_header">Cột ngày: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Định dạng không hợp lệ.</string>
+    <string name="mtrl_picker_invalid_format_example">Ví dụ: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Sử dụng: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Phạm vi không hợp lệ.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Chuyển tới năm %1$s</string>
+    <string name="mtrl_picker_out_of_range">Nằm ngoài phạm vi: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ngày bắt đầu – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ngày kết thúc</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Chọn dải ô</string>
+    <string name="mtrl_picker_range_header_unselected">Ngày bắt đầu – Ngày kết thúc</string>
+    <string name="mtrl_picker_save">Lưu</string>
+    <string name="mtrl_picker_text_input_date_hint">Ngày</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ngày kết thúc</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ngày bắt đầu</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Chuyển sang chế độ nhập lịch</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Nhấn để chuyển sang chế độ chọn một ngày</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Chuyển sang chế độ nhập văn bản</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Nhấn để chuyển sang chế độ chọn một năm</string>
+    <string name="password_toggle_content_description">Hiện mật khẩu</string>
+    <string doc="Text shown to the user at the top of the pre-chat screen." name="pre_chat_banner_text">
+        Bạn chỉ cần cung cấp một vài thông tin trước khi chúng tôi kết nối bạn với chuyên gia…
+    </string>
+    <string doc="Label text for the button to start a session after completing the pre-chat screen." name="pre_chat_button_start">
+        Trò chuyện với một Nhân Viên
+    </string>
+    <string doc="Content description applied to the list of fields displayed on the pre-chat screen." name="pre_chat_field_list_description">
+        Danh sách các trường cần được điền hiển thị tại đây.
+    </string>
+    <string doc="Default text value applied to a picklist when no selection has been made." name="pre_chat_picklist_select_hint">
+        Chọn một giá trị…</string>
+    <string doc="The title text that appears on the toolbar of the pre-chat screen." name="pre_chat_toolbar_title">
+        Trò Chuyện Trực Tuyến
+    </string>
+    <string doc="Content description applied to the close button on the Minimized View." name="salesforce_close_minimize_view_content_description" translatable="false">
+        @string/chat_end_session_content_description
+    </string>
+    <string doc="The input hint text displayed in the message input area at the bottom of the Chat Feed." name="salesforce_message_input_hint">
+        Gửi tin nhắn...
+    </string>
+    <string doc="Content description applied to the photo selection button at the bottom of the Chat Feed." name="salesforce_select_photo_content_description">
+        Chọn một ảnh
+    </string>
+    <string doc="Content description applied to the message send button at the bottom of the Chat Feed." name="salesforce_send_message_content_description">
+        Gửi tin nhắn
+    </string>
+    <string doc="Content description applied to the user&apos;s sent photo as it appears in the Chat Feed." name="salesforce_sent_photo_content_description">
+        Ảnh đính kèm
+    </string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Tìm kiếm"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>
