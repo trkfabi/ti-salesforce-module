@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/values/values.xml",
+            "outputFile": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/values/values.xml",
@@ -353,23 +353,6 @@
                     }
                 },
                 {
-                    "source": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/platform/android/res/values/colors.xml",
-                    "from": {
-                        "startLines": "3,4,5,6,7,8,1,2",
-                        "startColumns": "2,2,2,2,2,2,2,2",
-                        "startOffsets": "129,186,245,306,366,428,14,67",
-                        "endColumns": "56,58,60,59,61,59,50,59",
-                        "endOffsets": "183,242,303,363,425,485,62,124"
-                    },
-                    "to": {
-                        "startLines": "747,752,755,756,759,762,771,772",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "43085,43621,43905,43968,44216,44462,45300,45353",
-                        "endColumns": "58,60,62,61,63,61,52,61",
-                        "endOffsets": "43139,43677,43963,44025,44275,44519,45348,45410"
-                    }
-                },
-                {
                     "source": "/Users/fabi/.gradle/caches/transforms-3/33b1e2b580a9507947c8ba71471c6f14/transformed/savedstate-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -492,6 +475,23 @@
                         "endLines": "1787,1790,1793,1796",
                         "endColumns": "13,13,13,13",
                         "endOffsets": "114911,115207,115472,115714"
+                    }
+                },
+                {
+                    "source": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/platform/android/res/values/colors.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,1,2",
+                        "startColumns": "2,2,2,2,2,2,2,2",
+                        "startOffsets": "129,186,245,306,366,428,14,67",
+                        "endColumns": "56,58,60,59,61,59,50,59",
+                        "endOffsets": "183,242,303,363,425,485,62,124"
+                    },
+                    "to": {
+                        "startLines": "747,752,755,756,759,762,771,772",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "43085,43621,43905,43968,44216,44462,45300,45353",
+                        "endColumns": "58,60,62,61,63,61,52,61",
+                        "endOffsets": "43139,43677,43963,44025,44275,44519,45348,45410"
                     }
                 },
                 {
@@ -516,7 +516,7 @@
             ]
         },
         {
-            "outputFile": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/values/values.xml",
             "map": [
                 {
                     "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/values/values.xml",
@@ -868,23 +868,6 @@
                     }
                 },
                 {
-                    "source": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/platform/android/res/values/colors.xml",
-                    "from": {
-                        "startLines": "3,4,5,6,7,8,1,2",
-                        "startColumns": "2,2,2,2,2,2,2,2",
-                        "startOffsets": "129,186,245,306,366,428,14,67",
-                        "endColumns": "56,58,60,59,61,59,50,59",
-                        "endOffsets": "183,242,303,363,425,485,62,124"
-                    },
-                    "to": {
-                        "startLines": "747,752,755,756,759,762,771,772",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "43085,43621,43905,43968,44216,44462,45300,45353",
-                        "endColumns": "58,60,62,61,63,61,52,61",
-                        "endOffsets": "43139,43677,43963,44025,44275,44519,45348,45410"
-                    }
-                },
-                {
                     "source": "/Users/fabi/.gradle/caches/transforms-3/33b1e2b580a9507947c8ba71471c6f14/transformed/savedstate-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -1007,6 +990,23 @@
                         "endLines": "1787,1790,1793,1796",
                         "endColumns": "13,13,13,13",
                         "endOffsets": "114911,115207,115472,115714"
+                    }
+                },
+                {
+                    "source": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/platform/android/res/values/colors.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,1,2",
+                        "startColumns": "2,2,2,2,2,2,2,2",
+                        "startOffsets": "129,186,245,306,366,428,14,67",
+                        "endColumns": "56,58,60,59,61,59,50,59",
+                        "endOffsets": "183,242,303,363,425,485,62,124"
+                    },
+                    "to": {
+                        "startLines": "747,752,755,756,759,762,771,772",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "43085,43621,43905,43968,44216,44462,45300,45353",
+                        "endColumns": "58,60,62,61,63,61,52,61",
+                        "endOffsets": "43139,43677,43963,44025,44275,44519,45348,45410"
                     }
                 },
                 {

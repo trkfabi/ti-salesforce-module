@@ -1,42 +1,42 @@
 [
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_highlighted_text.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_dark_highlighted_text.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_primary_text_disable_only.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_primary_text_disable_only.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_default_color_secondary_text.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_default_color_secondary_text.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_hint_foreground.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_hint_foreground.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_default_color_primary_text.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_default_color_primary_text.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_default_color_primary_text.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_primary_text_disable_only.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_default_color_secondary_text.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_default_color_secondary_text.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_default_color_primary_text.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_dark_default_color_primary_text.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_hint_foreground.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_hint_foreground.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_highlighted_text.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_highlighted_text.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_hint_foreground.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_hint_foreground.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_dark_hint_foreground.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_default_color_secondary_text.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_primary_text_disable_only.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_primary_text_disable_only.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_highlighted_text.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_dark_highlighted_text.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_highlighted_text.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_highlighted_text.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_default_color_primary_text.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_dark_default_color_primary_text.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/color-v31/m3_dynamic_dark_default_color_secondary_text.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/color-v31/m3_dynamic_dark_default_color_secondary_text.xml"
     }
 ]

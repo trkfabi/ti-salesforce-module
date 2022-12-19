@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/layout-v26/abc_screen_toolbar.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/layout-v26/abc_screen_toolbar.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/layout-v26/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/layout-v26/mtrl_calendar_month.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/layout-v26/mtrl_calendar_month.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/layout-v26/mtrl_calendar_month.xml"
     }
 ]

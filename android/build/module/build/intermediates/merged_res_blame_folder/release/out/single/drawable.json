@@ -1,602 +1,602 @@
 [
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_checked_black.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_mtrl_chip_checked_black.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_ic_camera.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_ic_camera.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_delete.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_delete.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_menu_arrow_up_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_menu_arrow_up_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_clock_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_clock_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_menu_arrow_down_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_menu_arrow_down_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_message_bubble_received_speech_arrow.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_message_bubble_received_speech_arrow.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_check_material_anim.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_check_material_anim.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_bottom_button.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_bottom_button.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_popupmenu_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_popupmenu_background.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_m3_chip_close.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_m3_chip_close.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_m3_chip_checked_circle.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_m3_chip_checked_circle.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_star_black_48dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_star_black_48dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_radio_on_to_off_mtrl_animation.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_agent_avatar.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_agent_avatar.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/m3_popupmenu_background_overlay.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/m3_popupmenu_background_overlay.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_button.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_button.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_divider_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_divider_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_checkmark.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_checkmark.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_splash_empty.png",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_splash_empty.png"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_circle.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_circle.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/notification_icon_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/m3_tabs_line_indicator.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/m3_tabs_line_indicator.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_minimized_view_toolbar.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_minimized_view_toolbar.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_minimized_connecting.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_minimized_connecting.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_fastscroll_line.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_fastscroll_line.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/vector_drawable_progress_indeterminate_horizontal.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/vector_drawable_progress_indeterminate_horizontal.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_vector_test.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/f7a2259e2f79b7152e7b32868d1eb365/transformed/appcompat-resources-1.4.1/res/drawable/abc_vector_test.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_edit_text_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_password_eye.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_minimized_view.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_minimized_view.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_message_bubble_overlay.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_message_bubble_overlay.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_keyboard_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_keyboard_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/agent_initial_avatar.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/agent_initial_avatar.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_fastscroll_thumb_drawable.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_fastscroll_thumb_drawable.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/avd_show_password.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/avd_show_password.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_message_bubble_sent.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_message_bubble_sent.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_close.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_close.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_fastscroll_thumb.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_fastscroll_thumb.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_button.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_button.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_checkbox_unchecked_mtrl.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_checkbox_unchecked_mtrl.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_button_solid.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_button_solid.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_m3_chip_check.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_m3_chip_check.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_dialog_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_dialog_background.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_checkbox_checked_mtrl.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_checkbox_checked_mtrl.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_drag.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_drag.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_minimized_message_indicator.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_minimized_message_indicator.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_navigation_bar_item_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_navigation_bar_item_background.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/avd_hide_password.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/avd_hide_password.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_ic_error.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_ic_error.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_button_pressed.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_button_pressed.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_checkcircle.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_checkcircle.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/progress_indeterminate_horizontal_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/progress_indeterminate_horizontal_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_ic_minimize.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_ic_minimize.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/test_level_drawable.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/test_level_drawable.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_check_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_cursor_drawable.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_cursor_drawable.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_header.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_header.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_ic_arrow_drop_down.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_ic_arrow_drop_down.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_photo_gallery.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_photo_gallery.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_error.png",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_error.png"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_more.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_more.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_bubble.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_bubble.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/tooltip_frame_light.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/tooltip_frame_light.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_footer_menu_item.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_footer_menu_item.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_message_bubble_received.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_message_bubble_received.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_snackbar_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/edaba961010a3125f1dcbd17bcdd156d/transformed/design-28.0.0/res/drawable/mtrl_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/notification_bg_low.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_close_circle.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_mtrl_chip_close_circle.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_fab_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_horizontal_rule.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_horizontal_rule.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/notification_bg.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_checked_circle.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_mtrl_chip_checked_circle.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/navigation_empty_icon.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/navigation_empty_icon.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/test_custom_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/test_custom_background.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_mtrl_checked_circle.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_mtrl_checked_circle.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/m3_tabs_rounded_line_indicator.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/m3_tabs_rounded_line_indicator.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/link_preview_arrow.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/link_preview_arrow.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_loading_ball.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_loading_ball.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_star_half_black_48dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_star_half_black_48dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/tooltip_frame_dark.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/tooltip_frame_dark.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_disclosure.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_disclosure.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_footer_menu.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_footer_menu.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_collapse.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_collapse.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_dropdown_arrow.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_dropdown_arrow.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_radio_on_mtrl.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_radio_on_mtrl.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_item_background_holo_dark.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/test_level_drawable.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/test_level_drawable.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_fastscroll_line_drawable.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_fastscroll_line_drawable.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_minimized_connecting.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_minimized_connecting.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_ic_arrow_drop_up.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_ic_arrow_drop_up.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_button_pressed.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_button_pressed.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_radio_material_anim.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/agent_initial_avatar.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/agent_initial_avatar.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_keyboard_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/tooltip_frame_light.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_button.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_button.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_menu_arrow_up_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_mtrl_checked_circle.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_fastscroll_line.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_fastscroll_line.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_radio_material_anim.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_radio_material_anim.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_ic_cancel.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_ic_cancel.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_tabs_default_indicator.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_tabs_default_indicator.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_clear_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_clear_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_last_photo.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_last_photo.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_ic_visibility.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_ic_visibility.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_button.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_button.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/edaba961010a3125f1dcbd17bcdd156d/transformed/design-28.0.0/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/selection_band_overlay.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/e61b131ff762b1657b756319864755ad/transformed/recyclerview-selection-1.1.0/res/drawable/selection_band_overlay.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_ic_visibility_off.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_ic_visibility_off.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_radio_off_to_on_mtrl_animation.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_radio_off_to_on_mtrl_animation.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_ic_message_send.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_ic_message_send.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_share_mtrl_alpha.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_share_mtrl_alpha.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_edit_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_edit_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_keyboard_arrow_left_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_keyboard_arrow_left_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_top_button.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_top_button.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_popupmenu_background_overlay.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_popupmenu_background_overlay.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_calendar_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_calendar_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_radio_off_mtrl.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_radio_off_mtrl.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_keyboard_arrow_right_black_24dp.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_keyboard_arrow_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_solo_button.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_solo_button.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_solo_button.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_dialog_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_dialog_background.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_splash_icon_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_splash_icon_background.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_mtrl_chip_checked_circle.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_dialog_material_background.xml"
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_speech_arrow.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_m3_chip_close.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_m3_chip_close.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_m3_chip_check.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_m3_chip_check.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/edaba961010a3125f1dcbd17bcdd156d/transformed/design-28.0.0/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_message_bubble_received.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_message_bubble_received.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_navigation_bar_item_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_navigation_bar_item_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_vector_test.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/f7a2259e2f79b7152e7b32868d1eb365/transformed/appcompat-resources-1.4.1/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_dropdown_arrow.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/avd_hide_password.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_popupmenu_background_overlay.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_popupmenu_background_overlay.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_minimized_view.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_minimized_view.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_fastscroll_line_drawable.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_fastscroll_line_drawable.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_ic_camera.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_ic_camera.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_message_bubble_received_speech_arrow.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_message_bubble_received_speech_arrow.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_agent_avatar.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_agent_avatar.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_ic_visibility_off.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_message_bubble_overlay.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_message_bubble_overlay.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_speech_arrow.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_speech_arrow.xml"
     },
     {
-        "merged": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_snackbar_background.xml",
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_message_bubble_sent.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_message_bubble_sent.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_delete.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_delete.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_drag.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_drag.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_horizontal_rule.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_horizontal_rule.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/m3_popupmenu_background_overlay.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/m3_popupmenu_background_overlay.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_radio_on_mtrl.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_edit_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_footer_menu.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_footer_menu.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/selection_band_overlay.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/e61b131ff762b1657b756319864755ad/transformed/recyclerview-selection-1.1.0/res/drawable/selection_band_overlay.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_snackbar_background.xml",
         "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_minimized_message_indicator.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_minimized_message_indicator.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_divider_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_circle.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_circle.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_ic_message_send.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_ic_message_send.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_more.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_more.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/avd_show_password.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_popupmenu_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_clock_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/ic_m3_chip_checked_circle.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/ic_m3_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_splash_icon_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_splash_icon_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_snackbar_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/edaba961010a3125f1dcbd17bcdd156d/transformed/design-28.0.0/res/drawable/mtrl_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_fab_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_disclosure.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_disclosure.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/link_preview_arrow.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/link_preview_arrow.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_error.png",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_error.png"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_calendar_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_checkcircle.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_checkcircle.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_fastscroll_thumb.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_fastscroll_thumb.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_button.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_button.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_radio_off_mtrl.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_clear_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_cursor_drawable.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_cursor_drawable.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_splash_empty.png",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_splash_empty.png"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_loading_ball.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_loading_ball.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_button.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_button.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_check_material_anim.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_ic_error.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_ic_error.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_ic_minimize.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_ic_minimize.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_fastscroll_thumb_drawable.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_fastscroll_thumb_drawable.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_top_button.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_top_button.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/titanium_icon_checkmark.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/2e6c61fd50e62687e6266af2f832b460/transformed/titanium-11.0.0/res/drawable/titanium_icon_checkmark.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_header.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_header.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_close.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_close.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_password_eye.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_menu_bottom_button.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_menu_bottom_button.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/test_custom_background.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/test_custom_background.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_minimized_view_toolbar.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_minimized_view_toolbar.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_star_half_black_48dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_star_black_48dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/design_ic_visibility.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/material_ic_menu_arrow_down_black_24dp.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/material_ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/salesforce_button_solid.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/salesforce_button_solid.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_collapse.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_collapse.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/m3_tabs_line_indicator.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/m3_tabs_line_indicator.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/m3_tabs_rounded_line_indicator.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/m3_tabs_rounded_line_indicator.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_photo_gallery.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_photo_gallery.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/vector_drawable_progress_indeterminate_horizontal.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/vector_drawable_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/6c40ee4db468cdd24d81b25d2b1c53bc/transformed/appcompat-1.4.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_last_photo.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_last_photo.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/mtrl_ic_cancel.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/0a325ed0190bc005cf43716672e1b1f4/transformed/material-1.5.0/res/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_footer_menu_item.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_footer_menu_item.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/chat_ic_bubble.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/dd10cef1434470c0b59b00cc5b86d99f/transformed/chat-ui-4.3.4/res/drawable/chat_ic_bubble.xml"
+    },
+    {
+        "merged": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/drawable/progress_indeterminate_horizontal_material.xml",
+        "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/drawable/progress_indeterminate_horizontal_material.xml"
     }
 ]

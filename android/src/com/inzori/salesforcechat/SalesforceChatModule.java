@@ -14,6 +14,7 @@ import org.appcelerator.kroll.KrollDict;
 
 import org.appcelerator.titanium.TiApplication;
 import org.appcelerator.kroll.common.Log;
+import org.appcelerator.titanium.util.TiConvert;
 
 import com.salesforce.android.service.common.utilities.control.Async;
 
@@ -32,6 +33,9 @@ import com.salesforce.android.chat.core.model.ChatWindowButtonMenu.Button;
 import com.salesforce.android.chat.core.model.ChatMessage;
 import com.salesforce.android.chat.core.model.ChatFooterMenu;
 import com.salesforce.android.chat.core.model.ChatSessionInfo;
+import com.salesforce.android.chat.core.model.ChatEntity;
+import com.salesforce.android.chat.core.model.ChatEntityField;
+import com.salesforce.android.chat.core.model.ChatUserData;
 
 import com.salesforce.android.chat.ui.ChatUIConfiguration;
 import com.salesforce.android.chat.ui.ChatUI;
@@ -65,6 +69,18 @@ public class SalesforceChatModule extends KrollModule
 		String BUTTON_ID = "";
 		String LIVE_AGENT_POD = ""; 
 
+		String firstName = "";
+		String lastName = "";
+		String email = "";
+		String subject = "";
+		String phone = "";
+
+		boolean defaultToMinimized = true;
+		boolean allowMinimization = true;
+		boolean allowURLPreview = true;
+		boolean showPrechatFields = false;
+		boolean createSalesforceCase = false;
+
 		// Ti events "salesforce_chat:session_error", "salesforce_chat:session_end", "salesforce_chat:session_state""
 		try {
 			if(args.containsKey("orgId")){
@@ -80,16 +96,123 @@ public class SalesforceChatModule extends KrollModule
 				LIVE_AGENT_POD = args.getString("podName");
 			}	else return;
 
-			ChatConfiguration chatConfiguration = 
-			new ChatConfiguration.Builder(ORG_ID, BUTTON_ID, 
-										  DEPLOYMENT_ID, LIVE_AGENT_POD)
-										  .build();
+			if(args.containsKey("firstName")){
+				firstName = args.getString("firstName");
+			}
+			if (args.containsKey("lastName")) {
+				lastName = args.getString("lastName");
+			}
+			if(args.containsKey("email")){
+				email = args.getString("email");
+			}
+			if(args.containsKey("phone")){
+				phone = args.getString("phone");
+			}
+			if(args.containsKey("subject")){
+				subject = args.getString("subject");
+			}
+
+			if(args.containsKey("defaultToMinimized")){
+				defaultToMinimized = TiConvert.toBoolean(args.getString("defaultToMinimized"));
+			}
+			if (args.containsKey("allowMinimization")) {
+				allowMinimization = TiConvert.toBoolean(args.getString("allowMinimization"));
+			}
+			if(args.containsKey("allowURLPreview")){
+				allowURLPreview = TiConvert.toBoolean(args.getString("allowURLPreview"));
+			}
+			if(args.containsKey("showPrechatFields")){
+				showPrechatFields = TiConvert.toBoolean(args.getString("showPrechatFields"));
+			}
+			if(args.containsKey("createSalesforceCase")){
+				createSalesforceCase = TiConvert.toBoolean(args.getString("createSalesforceCase"));
+			}
+
+			// Create some hidden fields with specific values
+			ChatUserData firstNameData = new ChatUserData(
+			"FirstName", firstName, true);
+			ChatUserData lastNameData = new ChatUserData(
+			"LastName", lastName, true);
+			ChatUserData emailData = new ChatUserData(
+			"Email", email, true);
+			ChatUserData subjectData = new ChatUserData(
+			"Subject", subject, true);
+			ChatUserData phoneData = new ChatUserData(
+			"Phone", phone, true);
+
+			// Map Subject to a field in a Case record
+			ChatEntity caseEntity = new ChatEntity.Builder()
+			.showOnCreate(true)
+			.linkToTranscriptField("Case")
+			.addChatEntityField(
+				new ChatEntityField.Builder()
+					.doCreate(true)
+					.build("Subject", subjectData))
+			.build("Case");
+		
+
+			// Map FirstName, LastName, and Email to fields in a Contact record
+			ChatEntity contactEntity = new ChatEntity.Builder()
+			.showOnCreate(true)
+			.linkToTranscriptField("Contact")
+			.linkToAnotherSalesforceObject(caseEntity, "ContactId")
+			.addChatEntityField(
+			new ChatEntityField.Builder()
+					.doFind(true)
+					.isExactMatch(true)
+					.doCreate(true)
+					.build("FirstName", firstNameData))
+			.addChatEntityField(
+			new ChatEntityField.Builder()
+					.doFind(true)
+					.isExactMatch(true)
+					.doCreate(true)
+					.build("LastName", lastNameData))
+			.addChatEntityField(
+			new ChatEntityField.Builder()
+					.doFind(true)
+					.isExactMatch(true)
+					.doCreate(true)
+					.build("Email", emailData))
+			.addChatEntityField(
+				new ChatEntityField.Builder()
+						.doFind(true)
+						.isExactMatch(true)
+						.doCreate(true)
+						.build("Phone", phoneData))					
+			.build("Contact");
+
+			// Create the chat configuration builder
+			final ChatConfiguration.Builder chatConfigurationBuilder = new ChatConfiguration.Builder(
+				ORG_ID, 
+				BUTTON_ID, 
+				DEPLOYMENT_ID, 
+				LIVE_AGENT_POD
+			);
+
+			// Add user data and entities
+			if (createSalesforceCase) {
+				chatConfigurationBuilder
+				.chatUserData(firstNameData, lastNameData, emailData, phoneData, subjectData)
+				.chatEntities(caseEntity, contactEntity);			
+			} else {
+				chatConfigurationBuilder
+				.chatUserData(firstNameData, lastNameData, emailData, phoneData, subjectData)
+				.chatEntities(contactEntity);					
+			}			
+
+			// Build the chat configuration object
+			ChatConfiguration chatConfiguration = chatConfigurationBuilder.build();
 
 			ChatUIConfiguration.Builder uiConfig = new ChatUIConfiguration.Builder()
+				.disablePreChatView(!showPrechatFields)
+				.defaultToMinimized(defaultToMinimized)
 				.chatConfiguration(chatConfiguration)
+				.enableHyperlinkPreview(allowURLPreview)
 				.chatEventListener(new MyEventListener());
-							
-			ChatUI.configure(ChatUIConfiguration.create(chatConfiguration))
+				
+
+			ChatUI.configure(uiConfig.build())
 				.createClient(TiApplication.getInstance().getApplicationContext())
 				.onResult(new Async.ResultHandler<ChatUIClient>() {
 					@Override public void handleResult (Async<?> operation, 

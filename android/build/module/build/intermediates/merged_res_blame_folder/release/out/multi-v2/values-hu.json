@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/values-hu/values-hu.xml",
+            "outputFile": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/values-hu/values-hu.xml",
@@ -97,7 +97,7 @@
             ]
         },
         {
-            "outputFile": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hu/values-hu.xml",
+            "outputFile": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/Users/fabi/.gradle/caches/transforms-3/dcd3a0d93d329f060d887d648364f4af/transformed/core-1.7.0/res/values-hu/values-hu.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+            "outputFile": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
             "map": [
                 {
                     "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/values-xlarge-land-v4/values-xlarge-land-v4.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+            "outputFile": "/Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/build/intermediates/merged_res/release/values-xlarge-land-v4/values-xlarge-land-v4.xml",
             "map": [
                 {
                     "source": "/Users/fabi/.gradle/caches/transforms-3/9b2bcb6a5149f42b7ac42a1a0f09e123/transformed/common-ui-8.0.6/res/values-xlarge-land-v4/values-xlarge-land-v4.xml",

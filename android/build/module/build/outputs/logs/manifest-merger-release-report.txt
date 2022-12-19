@@ -1,27 +1,27 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:1-154
-INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:1-154
-INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:1-154
+ADDED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:1-154
+INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:1-154
+INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:1-154
 	package
-		ADDED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:117-152
-		INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
-		INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+		ADDED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:117-152
+		INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:70-116
+		ADDED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:70-116
 	xmlns:android
-		ADDED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
-INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
-INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
-INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
-INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
-		ADDED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
-		INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+		ADDED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
-		ADDED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
-		INJECTED from /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+		ADDED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/build/module/src/main/AndroidManifest.xml

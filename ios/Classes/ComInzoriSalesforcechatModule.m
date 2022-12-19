@@ -47,23 +47,22 @@
 {
   ENSURE_SINGLE_ARG(args, NSDictionary);
 
-  NSString *podName;
-  NSString *orgId;
-  NSString *deploymentId;
-  NSString *buttonId;
-  NSString *visitorName;
-  BOOL defaultToMinimized;
-  BOOL allowMinimization;
-  BOOL allowURLPreview;
+  NSString *podName = [TiUtils stringValue:@"podName" properties:args];
+  NSString *orgId = [TiUtils stringValue:@"orgId" properties:args];
+  NSString *deploymentId = [TiUtils stringValue:@"deploymentId" properties:args];
+  NSString *buttonId = [TiUtils stringValue:@"buttonId" properties:args];
 
-  ENSURE_ARG_OR_NIL_FOR_KEY(podName, args, @"podName", NSString);
-  ENSURE_ARG_OR_NIL_FOR_KEY(orgId, args, @"orgId", NSString);
-  ENSURE_ARG_OR_NIL_FOR_KEY(deploymentId, args, @"deploymentId", NSString);
-  ENSURE_ARG_OR_NIL_FOR_KEY(buttonId, args, @"buttonId", NSString);    
-  ENSURE_ARG_OR_NIL_FOR_KEY(visitorName, args, @"visitorName", NSString);    
-  ENSURE_INT_OR_NIL_FOR_KEY(defaultToMinimized, args, @"defaultToMinimized", defaultToMinimized);    
-  ENSURE_INT_OR_NIL_FOR_KEY(allowURLPreview, args, @"allowURLPreview", allowURLPreview);    
-  ENSURE_INT_OR_NIL_FOR_KEY(allowMinimization, args, @"allowMinimization", allowMinimization);    
+  NSString *firstName = [TiUtils stringValue:@"firstName" properties:args def:@""];
+  NSString *lastName = [TiUtils stringValue:@"lastName" properties:args def:@""];
+  NSString *email = [TiUtils stringValue:@"email" properties:args def:@""];
+  NSString *subject = [TiUtils stringValue:@"subject" properties:args def:@""];
+  NSString *phone = [TiUtils stringValue:@"phone" properties:args def:@""];
+
+  BOOL defaultToMinimized = [TiUtils boolValue:@"defaultToMinimized" properties:args def:YES];
+  BOOL allowMinimization = [TiUtils boolValue:@"allowMinimization" properties:args def:YES];
+  BOOL allowURLPreview = [TiUtils boolValue:@"allowURLPreview" properties:args def:YES];
+  BOOL showPrechatFields = [TiUtils boolValue:@"showPrechatFields" properties:args def:NO];
+  BOOL createSalesforceCase = [TiUtils boolValue:@"createSalesforceCase" properties:args def:NO];
 
   SCSChatConfiguration *config =
     [[SCSChatConfiguration alloc] initWithLiveAgentPod:podName
@@ -72,10 +71,91 @@
                                               buttonId:buttonId
     ];
 
-  config.visitorName = visitorName;                                   
-  config.defaultToMinimized = defaultToMinimized ? YES: NO;
-  config.allowURLPreview = allowURLPreview ? YES: NO;
-  config.allowMinimization = allowMinimization ? YES: NO;
+  config.visitorName = [NSString stringWithFormat:@"%@ %@", firstName, lastName];                                  
+  config.defaultToMinimized = defaultToMinimized;
+  config.allowURLPreview = allowURLPreview;
+  config.allowMinimization = allowMinimization;
+  // Change from queue position to estimated wait time
+  //config.queueStyle = SCSChatConfigurationQueueStyleEstimatedWaitTime;
+
+  // Create pre-chat fields
+  SCSPrechatObject* firstNameField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"First Name"
+                                    value:firstName];
+  SCSPrechatObject* lastNameField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"Last Name"
+                                    value:lastName];                                    
+  SCSPrechatObject* emailField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"Email"
+                                    value:email];
+  SCSPrechatObject* subjectField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"Subject"
+                                    value:subject];
+  SCSPrechatObject* phoneField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"Phone"
+                                    value:phone];
+
+  // Create entity fields
+  SCSPrechatEntityField* firstNameEntityField = [[SCSPrechatEntityField alloc]
+    initWithFieldName:@"FirstName" label:@"First Name"];
+  firstNameEntityField.doFind = YES;
+  firstNameEntityField.doCreate = YES;
+  firstNameEntityField.isExactMatch = YES;
+
+  SCSPrechatEntityField* lastNameEntityField = [[SCSPrechatEntityField alloc]
+    initWithFieldName:@"LastName" label:@"Last Name"];
+  lastNameEntityField.doFind = YES;
+  lastNameEntityField.doCreate = YES;
+  lastNameEntityField.isExactMatch = YES;
+
+  SCSPrechatEntityField* emailEntityField = [[SCSPrechatEntityField alloc]
+    initWithFieldName:@"Email" label:@"Email"];
+  emailEntityField.doFind = YES;
+  emailEntityField.doCreate = YES;
+  emailEntityField.isExactMatch = YES;
+
+  SCSPrechatEntityField* phoneEntityField = [[SCSPrechatEntityField alloc]
+    initWithFieldName:@"Phone" label:@"Phone"];
+  phoneEntityField.doFind = YES;
+  phoneEntityField.doCreate = YES;
+  phoneEntityField.isExactMatch = YES;
+
+  // Create an entity object
+  SCSPrechatEntity* contactEntity = [[SCSPrechatEntity alloc]
+                                    initWithEntityName:@"Contact"];
+  contactEntity.saveToTranscript = @"Contact";
+  contactEntity.linkToEntityName = @"Case";
+  contactEntity.linkToEntityField = @"ContactId";                                  
+  contactEntity.showOnCreate = YES;
+
+  // Create an entity mapping for a Contact record type
+  [contactEntity.entityFieldsMaps addObject:firstNameEntityField];
+  [contactEntity.entityFieldsMaps addObject:lastNameEntityField];
+  [contactEntity.entityFieldsMaps addObject:emailEntityField];
+  [contactEntity.entityFieldsMaps addObject:phoneEntityField];
+
+  if (createSalesforceCase) {
+    // Create an entity mapping for a Case record type
+    SCSPrechatEntity* caseEntity = [[SCSPrechatEntity alloc]
+                                      initWithEntityName:@"Case"];
+    caseEntity.saveToTranscript = @"Case";
+    caseEntity.showOnCreate = YES;
+
+    // Add one field mappings to our Case entity
+    SCSPrechatEntityField* subjectEntityField = [[SCSPrechatEntityField alloc]
+      initWithFieldName:@"Subject" label:@"Subject"];
+    subjectEntityField.doCreate = YES;
+    [caseEntity.entityFieldsMaps addObject:subjectEntityField];
+
+    // Update config object with the entity mappings
+    config.prechatEntities = @[contactEntity, caseEntity];
+  } else {
+    // Update config object with the entity mappings
+    config.prechatEntities = @[contactEntity];
+  }
+
+  // Update config object with the pre-chat fields
+  config.prechatFields = @[firstNameField, lastNameField, emailField, phoneField, subjectField];
 
   SCAppearanceConfiguration *appearance = [SCAppearanceConfiguration new];
   [appearance setColor:[self colorFromHexString:@"#FFFFFF"]
@@ -86,14 +166,20 @@
 
   [appearance setColor:[self colorFromHexString:@"#02B3E4"]
               forName:SCSAppearanceColorTokenBrandPrimary];
-  
 
   // Add delegates
   [[SCServiceCloud sharedInstance].chatCore addDelegate:self];
   [SCServiceCloud sharedInstance].appearanceConfiguration = appearance;
 
-  // Start the session
-  [[SCServiceCloud sharedInstance].chatUI showChatWithConfiguration:config];
+// Start the session
+
+  if (showPrechatFields) {
+    NSLog(@"[INFO] show with PreChat fields");
+    [[SCServiceCloud sharedInstance].chatUI showChatWithConfiguration:config showPrechat: YES];
+  } else {
+    NSLog(@"[INFO] show without PreChat fields");
+    [[SCServiceCloud sharedInstance].chatUI showChatWithConfiguration:config];
+  }
 }
 
 // Assumes input like "#00FF00" (#RRGGBB).
