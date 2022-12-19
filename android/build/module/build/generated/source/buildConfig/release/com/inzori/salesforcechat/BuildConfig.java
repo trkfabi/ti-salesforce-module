@@ -20,5 +20,5 @@ public final class BuildConfig {
   // Field from default config.
   public static final String TI_MODULE_NAME = "Salesforce-Chat";
   // Field from default config.
-  public static final String TI_MODULE_VERSION = "1.0.1";
+  public static final String TI_MODULE_VERSION = "1.0.2";
 }
