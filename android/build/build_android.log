@@ -1,16 +1,16 @@
 
-10/18/2022, 8:04:22 PM
+12/19/2022, 17:59:18
 
 Operating System
   Name                        = macOS
-  Version                     = 12.6
+  Version                     = 13.0.1
   Architecture                = 64bit
-  # CPUs                      = 8
-  Memory                      = 17179869184
+  # CPUs                      = 10
+  Memory                      = 68719476736
 
 Node.js
-  Node.js Version             = 14.18.2
-  npm Version                 = 6.14.15
+  Node.js Version             = 16.18.1
+  npm Version                 = 8.19.2
 
 Titanium CLI
   CLI Version                 = 6.1.1
@@ -21,17 +21,19 @@ Titanium SDK
   Target Platform             = android
 
 Command
-  /usr/local/bin/node /usr/local/bin/ti build -p android -b --log-level trace -s 11.0.0.GA
+  /usr/local/bin/node /usr/local/bin/ti build -p android -b
 
-[INFO]   Assets Dir: /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/assets
-[INFO]   Documentation Dir: /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/documentation
-[INFO]   Example Dir: /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/example
-[INFO]   Platform Dir: /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/platform
-[INFO]   Resources Dir: /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/Resources
+[INFO]   Assets Dir: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/assets
+[INFO]   Documentation Dir: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/documentation
+[INFO]   Example Dir: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/example
+[INFO]   Platform Dir: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/platform
+[INFO]   Resources Dir: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/Resources
 [INFO]   Generating root project files
 [INFO]   Generating gradle project: module
 [INFO]   Building module
-[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@8170fc9
+[ERROR]  [GRADLE] Warning: Errors limit exceeded. To receive all errors set com.sun.xml.bind logger to FINEST level.
+[ERROR]  [GRADLE] Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
+[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@4d86b66
 [INFO]   [GRADLE] Found 42 tasks.
 [INFO]   [GRADLE] preBuild
 [INFO]   [GRADLE] preReleaseBuild
@@ -179,9 +181,9 @@ Command
 [INFO]   [GRADLE] > Task :module:compileReleaseSources
 [INFO]   [GRADLE] > Task :module:assembleRelease
 [INFO]   [GRADLE] 
-[INFO]   [GRADLE] BUILD SUCCESSFUL in 9s
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 7s
 [INFO]   [GRADLE] 31 actionable tasks: 11 executed, 20 up-to-date
-[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@60a1db0d
+[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@5397070d
 [INFO]   [GRADLE] Found 3 tasks.
 [INFO]   [GRADLE] generatePomFileForTitaniumPublicationPublication
 [INFO]   [GRADLE] publishTitaniumPublicationPublicationToMavenRepository
@@ -190,9 +192,9 @@ Command
 [INFO]   [GRADLE] > Task :module:publishTitaniumPublicationPublicationToMavenRepository
 [INFO]   [GRADLE] > Task :module:publish
 [INFO]   [GRADLE] 
-[INFO]   [GRADLE] BUILD SUCCESSFUL in 964ms
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 1s
 [INFO]   [GRADLE] 2 actionable tasks: 2 executed
 [INFO]   Packaging the module
 [INFO]   Creating module zip
-[INFO]   Writing module zip: /Users/fabi/Documents/Workspace/Titanium/Fluid/Salesforce-Chat/android/dist/com.inzori.salesforcechat-android-1.0.1.zip
-[INFO]   Project built successfully in 13s 705ms
+[INFO]   Writing module zip: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/dist/com.inzori.salesforcechat-android-1.0.2.zip
+[INFO]   Project built successfully in 10s 546ms
