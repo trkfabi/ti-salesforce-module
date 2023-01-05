@@ -57,7 +57,8 @@
   NSString *email = [TiUtils stringValue:@"email" properties:args def:@""];
   NSString *subject = [TiUtils stringValue:@"subject" properties:args def:@""];
   NSString *phone = [TiUtils stringValue:@"phone" properties:args def:@""];
-
+  NSString *caseOrigin = [TiUtils stringValue:@"caseOrigin" properties:args def:@""];
+    
   BOOL defaultToMinimized = [TiUtils boolValue:@"defaultToMinimized" properties:args def:YES];
   BOOL allowMinimization = [TiUtils boolValue:@"allowMinimization" properties:args def:YES];
   BOOL allowURLPreview = [TiUtils boolValue:@"allowURLPreview" properties:args def:YES];
@@ -94,7 +95,9 @@
   SCSPrechatObject* phoneField = [[SCSPrechatObject alloc] 
                                     initWithLabel:@"Phone"
                                     value:phone];
-
+  SCSPrechatObject* originField = [[SCSPrechatObject alloc]
+                                      initWithLabel:@"Case Origin"
+                                      value:caseOrigin];
   // Create entity fields
   SCSPrechatEntityField* firstNameEntityField = [[SCSPrechatEntityField alloc]
     initWithFieldName:@"FirstName" label:@"First Name"];
@@ -119,7 +122,7 @@
   phoneEntityField.doFind = YES;
   phoneEntityField.doCreate = YES;
   phoneEntityField.isExactMatch = YES;
-
+    
   // Create an entity object
   SCSPrechatEntity* contactEntity = [[SCSPrechatEntity alloc]
                                     initWithEntityName:@"Contact"];
@@ -135,27 +138,33 @@
   [contactEntity.entityFieldsMaps addObject:phoneEntityField];
 
   if (createSalesforceCase) {
-    // Create an entity mapping for a Case record type
-    SCSPrechatEntity* caseEntity = [[SCSPrechatEntity alloc]
+      // Create an entity mapping for a Case record type
+      SCSPrechatEntity* caseEntity = [[SCSPrechatEntity alloc]
                                       initWithEntityName:@"Case"];
-    caseEntity.saveToTranscript = @"Case";
-    caseEntity.showOnCreate = YES;
+      caseEntity.saveToTranscript = @"Case";
+      caseEntity.showOnCreate = YES;
+      
+      // Add one field mappings to our Case entity
+      SCSPrechatEntityField* subjectEntityField = [[SCSPrechatEntityField alloc]
+                                                   initWithFieldName:@"Subject" label:@"Subject"];
+      subjectEntityField.doCreate = YES;
+      [caseEntity.entityFieldsMaps addObject:subjectEntityField];
+      
+      SCSPrechatEntityField* originEntityField = [[SCSPrechatEntityField alloc]
+                                                  initWithFieldName:@"Origin" label:@"Case Origin"];
+      originEntityField.doCreate = YES;
+      [caseEntity.entityFieldsMaps addObject:originEntityField];
+      
+      // Update config object with the entity mappings
+      config.prechatEntities = @[contactEntity, caseEntity];
 
-    // Add one field mappings to our Case entity
-    SCSPrechatEntityField* subjectEntityField = [[SCSPrechatEntityField alloc]
-      initWithFieldName:@"Subject" label:@"Subject"];
-    subjectEntityField.doCreate = YES;
-    [caseEntity.entityFieldsMaps addObject:subjectEntityField];
-
-    // Update config object with the entity mappings
-    config.prechatEntities = @[contactEntity, caseEntity];
   } else {
     // Update config object with the entity mappings
     config.prechatEntities = @[contactEntity];
   }
 
   // Update config object with the pre-chat fields
-  config.prechatFields = @[firstNameField, lastNameField, emailField, phoneField, subjectField];
+  config.prechatFields = @[firstNameField, lastNameField, emailField, phoneField, subjectField, originField];
 
   SCAppearanceConfiguration *appearance = [SCAppearanceConfiguration new];
   [appearance setColor:[self colorFromHexString:@"#FFFFFF"]

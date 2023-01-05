@@ -74,6 +74,7 @@ public class SalesforceChatModule extends KrollModule
 		String email = "";
 		String subject = "";
 		String phone = "";
+		String origin = "";
 
 		boolean defaultToMinimized = true;
 		boolean allowMinimization = true;
@@ -111,6 +112,9 @@ public class SalesforceChatModule extends KrollModule
 			if(args.containsKey("subject")){
 				subject = args.getString("subject");
 			}
+			if(args.containsKey("caseOrigin")){
+				origin = args.getString("caseOrigin");
+			}			
 
 			if(args.containsKey("defaultToMinimized")){
 				defaultToMinimized = TiConvert.toBoolean(args.getString("defaultToMinimized"));
@@ -139,6 +143,8 @@ public class SalesforceChatModule extends KrollModule
 			"Subject", subject, true);
 			ChatUserData phoneData = new ChatUserData(
 			"Phone", phone, true);
+			ChatUserData originData = new ChatUserData(
+			"Origin", origin, true);
 
 			// Map Subject to a field in a Case record
 			ChatEntity caseEntity = new ChatEntity.Builder()
@@ -148,6 +154,10 @@ public class SalesforceChatModule extends KrollModule
 				new ChatEntityField.Builder()
 					.doCreate(true)
 					.build("Subject", subjectData))
+			.addChatEntityField(
+				new ChatEntityField.Builder()
+					.doCreate(true)
+					.build("Origin", originData))					
 			.build("Case");
 		
 
@@ -193,7 +203,7 @@ public class SalesforceChatModule extends KrollModule
 			// Add user data and entities
 			if (createSalesforceCase) {
 				chatConfigurationBuilder
-				.chatUserData(firstNameData, lastNameData, emailData, phoneData, subjectData)
+				.chatUserData(firstNameData, lastNameData, emailData, phoneData, subjectData, originData)
 				.chatEntities(caseEntity, contactEntity);			
 			} else {
 				chatConfigurationBuilder

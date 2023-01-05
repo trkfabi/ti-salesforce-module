@@ -1,9 +1,9 @@
 
-12/19/2022, 17:59:18
+1/5/2023, 6:11:08 PM
 
 Operating System
   Name                        = macOS
-  Version                     = 13.0.1
+  Version                     = 13.1
   Architecture                = 64bit
   # CPUs                      = 10
   Memory                      = 68719476736
@@ -31,9 +31,8 @@ Command
 [INFO]   Generating root project files
 [INFO]   Generating gradle project: module
 [INFO]   Building module
-[ERROR]  [GRADLE] Warning: Errors limit exceeded. To receive all errors set com.sun.xml.bind logger to FINEST level.
 [ERROR]  [GRADLE] Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
-[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@4d86b66
+[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@7c2684f7
 [INFO]   [GRADLE] Found 42 tasks.
 [INFO]   [GRADLE] preBuild
 [INFO]   [GRADLE] preReleaseBuild
@@ -87,7 +86,7 @@ Command
 [INFO]   [GRADLE] > Task :module:compileReleaseRenderscript NO-SOURCE
 [INFO]   [GRADLE] Relying on FileTrees for ignoring empty directories when using @SkipWhenEmpty has been deprecated. This is scheduled to be removed in Gradle 8.0. Annotate the property sourceDirs with @IgnoreEmptyDirectories or remove @SkipWhenEmpty. Consult the upgrading guide for further information: https://docs.gradle.org/7.4.2/userguide/upgrading_version_7.html#empty_directories_file_tree
 [INFO]   [GRADLE] 
-[INFO]   [GRADLE] > Task :module:generateReleaseBuildConfig UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:generateReleaseBuildConfig
 [INFO]   [GRADLE] > Task :module:generateReleaseResValues UP-TO-DATE
 [INFO]   [GRADLE] > Task :module:generateReleaseResources UP-TO-DATE
 [INFO]   [GRADLE] > Task :module:packageReleaseResources UP-TO-DATE
@@ -181,9 +180,9 @@ Command
 [INFO]   [GRADLE] > Task :module:compileReleaseSources
 [INFO]   [GRADLE] > Task :module:assembleRelease
 [INFO]   [GRADLE] 
-[INFO]   [GRADLE] BUILD SUCCESSFUL in 7s
-[INFO]   [GRADLE] 31 actionable tasks: 11 executed, 20 up-to-date
-[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@5397070d
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 12s
+[INFO]   [GRADLE] 31 actionable tasks: 12 executed, 19 up-to-date
+[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@309f9797
 [INFO]   [GRADLE] Found 3 tasks.
 [INFO]   [GRADLE] generatePomFileForTitaniumPublicationPublication
 [INFO]   [GRADLE] publishTitaniumPublicationPublicationToMavenRepository
@@ -196,5 +195,5 @@ Command
 [INFO]   [GRADLE] 2 actionable tasks: 2 executed
 [INFO]   Packaging the module
 [INFO]   Creating module zip
-[INFO]   Writing module zip: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/dist/com.inzori.salesforcechat-android-1.0.2.zip
-[INFO]   Project built successfully in 10s 546ms
+[INFO]   Writing module zip: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/dist/com.inzori.salesforcechat-android-1.0.3.zip
+[INFO]   Project built successfully in 15s 792ms
