@@ -1,107 +1,72 @@
-# TiDev Titanium Mobile Module Project
+# Salesforce Embedded Service Chat Module for Titanium (iOS & Android)
 
-This is a skeleton Titanium Mobile Mobile module project.
+This module is based on Salesforce Embedded Service Chat SDK:
+[iOS SDK](https://developer.salesforce.com/docs/atlas.en-us.service_sdk_ios.meta/service_sdk_ios/servicesdk_ios_dev_guide.htm)
+[Android SDK](https://developer.salesforce.com/docs/atlas.en-us.noversion.service_sdk_android.meta/service_sdk_android/servicesdk_android_dev_guide.htm)
 
-## Module Naming
+It allows you to use the Embedded Service Chat from Salesforce (Einstein bots and real agents chat transfer) which requires a Salesforce account and some backend work to enable bots, design flows and customise UX experience.
 
-Choose a unique module id for your module.  This ID usually follows a namespace
-convention using DNS notation.  For example, com.appcelerator.module.test.  This
-ID can only be used once by all public modules in Titanium.
+This module is a start point. It was created with a specific use case in mind, but I hope it may help if you need to support ESC or more complex Salesforce features. 
 
-## Getting Started
+# Use the module
 
-1. Edit the `manifest` with the appropriate details about your module.
-2. Edit the `LICENSE` to add your license details.
-3. Place any assets (such as PNG files) that are required anywhere in the module folder.
-4. Edit the `timodule.xml` and configure desired settings.
-5. Code and build.
+    const SFChat = require('com.inzori.salesforcechat');
 
-## Documentation
------------------------------
+Required IDs from Salesforce account:
 
-You should provide at least minimal documentation for your module in `documentation` folder using the Markdown syntax.
+    const podName = 'x.yy-zz-www.salesforceliveagent.com';
+    const orgId = 'YOU_ORGANIZATION_ID';
+    const deploymentId ='YOUR_DEPLOYMENT_ID';
+    const buttonId = 'YOUR_BUTTON_ID';
 
-For more information on the Markdown syntax, refer to this documentation at:
+Listen to events:
 
-<http://daringfireball.net/projects/markdown/>
+    SFChat.addEventListener("salesforce_chat:session_info", onSessionInfo);
+    SFChat.addEventListener("salesforce_chat:session_state", onStateChange);
+    SFChat.addEventListener("salesforce_chat:session_end", onSessionEnd);
+    SFChat.addEventListener("salesforce_chat:session_error", onSessionError);
+    SFChat.addEventListener("salesforce_chat:session_event", onSessionEvent);
 
-## Example
+Define the Contact and Case data you will send to Salesforce in order to find/create an existent or new Contact. A new Case will be created and associated with this contact if you want.
 
-The `example` directory contains a skeleton application test harness that can be
-used for testing and providing an example of usage to the users of your module.
+    // Contact
+    const firstName = 'Jack';
+    const lastName = 'Sparrow';
+    const email = 'jack@blackpearl.com';
+    const phone = '555-PIRATES';
 
-## Building
+    // Case
+    const subject = 'Lost my treasure';
+    const origin = 'Black Pearl mobile app';
+	
+A few options, all of them work except `showPrechatFields` because I don't need this UI and I haven't implemented it on the code. It allows the user to enter Name, Email and all the fields you need before trying to connect to the chat. I already have these data from the logged in user. 
 
-Simply run `appc run -p [ios|android] --build-only` which will compile and package your module.
+    defaultToMinimized (true/false) // start chat UI minimized
+    allowURLPreview (true/false) // allow URLs in the chat
+    allowMinimization (true/false) // allow the UI to be minimized
+    createSalesforceCase (true/false) // create a CASE associated with Contact
+    debug (true/false) // debug logs on Salesforce backend
+    showPrechatFields (true/false) // show UI so the user enters name, email, etc (doesn't work yet)
 
-## Linting
+	
+Launch standard Live Chat UI:
 
-You can use `clang` to lint your code. A default Axway linting style is included inside the module main folder.
-Run `clang-format -style=file -i SRC_FILE` in the module root to lint the `SRC_FILE`. You can also patterns,
-like `clang-format -style=file -i Classes/*` 
+    SFChat.launchChat({
+    	podName,
+    	orgId,
+    	deploymentId,
+    	buttonId,
+    	firstName,
+    	lastName,
+    	email,
+    	phone,
+    	subject,
+    	caseOrigin,
+    	defaultToMinimized,
+    	allowURLPreview,
+    	allowMinimization,
+    	showPrechatFields,
+    	createSalesforceCase,
+    	debug
+    });
 
-## Install
-
-To use your module locally inside an app you can copy the zip file into the app root folder and compile your app.
-The file will automatically be extracted and copied into the correct `modules/` folder.
-
-If you want to use your module globally in all your apps you have to do the following:
-
-### macOS
-
-Copy the distribution zip file into the `~/Library/Application Support/Titanium` folder
-
-### Linux
-
-Copy the distribution zip file into the `~/.titanium` folder
-
-### Windows
-Copy the distribution zip file into the `C:\ProgramData\Titanium` folder
-
-## Project Usage
-
-Register your module with your application by editing `tiapp.xml` and adding your module.
-Example:
-
-<modules>
-  <module version="1.0.0">com.inzori.salesforcechat</module>
-</modules>
-
-When you run your project, the compiler will combine your module along with its dependencies
-and assets into the application.
-
-## Example Usage
-
-To use your module in code, you will need to require it.
-
-### ES6+ (recommended)
-
-```js
-import MyModule from 'com.inzori.salesforcechat';
-MyModule.foo();
-```
-
-### ES5
-
-```js
-var MyModule = require('com.inzori.salesforcechat');
-MyModule.foo();
-```
-
-## Testing
-
-To test your module with the example, use:
-
-```js
-appc run -p [ios|android]
-```
-
-This will execute the app.js in the example/ folder as a Titanium application.
-
-## Distribution
-
-You have a variety of choises for distributing your module
-- [Gitt.io](http://gitt.io/)
-- [Axway Marketplace](https://marketplace.axway.com/home)
-
-Code strong!
