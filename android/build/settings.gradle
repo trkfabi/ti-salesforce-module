@@ -1,2 +1,0 @@
-rootProject.name = 'com.inzori.salesforcechat'
-include ':module'
