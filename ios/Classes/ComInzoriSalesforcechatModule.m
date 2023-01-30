@@ -64,7 +64,17 @@
   BOOL allowURLPreview = [TiUtils boolValue:@"allowURLPreview" properties:args def:YES];
   BOOL showPrechatFields = [TiUtils boolValue:@"showPrechatFields" properties:args def:NO];
   BOOL createSalesforceCase = [TiUtils boolValue:@"createSalesforceCase" properties:args def:NO];
-
+  BOOL debug = [TiUtils boolValue:@"debug" properties:args def:NO];
+  
+//    NSLog(@"[WARN] %@", args);
+//  NSLog(@"[WARN] FirstName: %@ - LastName: %@ - Email: %@ - Phone: %@ - Subject: %@ - Origin: %@",
+//        firstName, lastName, email, phone, subject, caseOrigin);
+    
+    if (debug) {
+       // NSLog(@"[INFO] enable livechat logger");
+        [SCServiceLogger sharedLogger].level = SCSLoggerLevelDebug;
+    }
+    
   SCSChatConfiguration *config =
     [[SCSChatConfiguration alloc] initWithLiveAgentPod:podName
                                                 orgId:orgId
@@ -119,9 +129,9 @@
 
   SCSPrechatEntityField* phoneEntityField = [[SCSPrechatEntityField alloc]
     initWithFieldName:@"Phone" label:@"Phone"];
-  phoneEntityField.doFind = YES;
-  phoneEntityField.doCreate = YES;
-  phoneEntityField.isExactMatch = YES;
+  phoneEntityField.doFind = NO;
+  phoneEntityField.doCreate = NO;
+  phoneEntityField.isExactMatch = NO;
     
   // Create an entity object
   SCSPrechatEntity* contactEntity = [[SCSPrechatEntity alloc]
@@ -164,8 +174,18 @@
   }
 
   // Update config object with the pre-chat fields
-  config.prechatFields = @[firstNameField, lastNameField, emailField, phoneField, subjectField, originField];
+    NSMutableArray<SCSPrechatObject *> *preChatFields = [NSMutableArray new];
+    [preChatFields addObject:firstNameField];
+    [preChatFields addObject:lastNameField];
+    [preChatFields addObject:emailField];
+    [preChatFields addObject:phoneField];
+    [preChatFields addObject:subjectField];
+    [preChatFields addObject:originField];
+    config.prechatFields = preChatFields;
+  //config.prechatFields = @[firstNameField, lastNameField, emailField, phoneField, subjectField, originField];
 
+    //NSLog(@"[WARN] config: %@", config.prechatFields);em
+    
   SCAppearanceConfiguration *appearance = [SCAppearanceConfiguration new];
   [appearance setColor:[self colorFromHexString:@"#FFFFFF"]
               forName:SCSAppearanceColorTokenNavbarBackground];

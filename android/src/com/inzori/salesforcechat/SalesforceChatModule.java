@@ -186,9 +186,9 @@ public class SalesforceChatModule extends KrollModule
 					.build("Email", emailData))
 			.addChatEntityField(
 				new ChatEntityField.Builder()
-						.doFind(true)
-						.isExactMatch(true)
-						.doCreate(true)
+						.doFind(false)
+						.isExactMatch(false)
+						.doCreate(false)
 						.build("Phone", phoneData))					
 			.build("Contact");
 

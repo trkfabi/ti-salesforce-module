@@ -1,5 +1,5 @@
 
-1/5/2023, 6:11:08 PM
+1/24/2023, 6:21:30 PM
 
 Operating System
   Name                        = macOS
@@ -31,8 +31,10 @@ Command
 [INFO]   Generating root project files
 [INFO]   Generating gradle project: module
 [INFO]   Building module
+[INFO]   [GRADLE] Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+[ERROR]  [GRADLE] Warning: This version only understands SDK XML versions up to 2 but an SDK XML file of version 3 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
 [ERROR]  [GRADLE] Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
-[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@7c2684f7
+[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@5280f284
 [INFO]   [GRADLE] Found 42 tasks.
 [INFO]   [GRADLE] preBuild
 [INFO]   [GRADLE] preReleaseBuild
@@ -93,7 +95,7 @@ Command
 [INFO]   [GRADLE] > Task :module:parseReleaseLocalResources UP-TO-DATE
 [INFO]   [GRADLE] > Task :module:processReleaseManifest UP-TO-DATE
 [INFO]   [GRADLE] 
-[INFO]   [GRADLE] > Task :module:generateReleaseRFile UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:generateReleaseRFile
 [INFO]   [GRADLE] WARNING:Your project has set `android.useAndroidX=true`, but configuration `releaseRuntimeClasspath` still contains legacy support libraries, which may cause runtime issues.
 [INFO]   [GRADLE] This behavior will not be allowed in Android Gradle plugin 8.0.
 [INFO]   [GRADLE] Please use only AndroidX dependencies or set `android.enableJetifier=true` in the `gradle.properties` file to migrate your project to AndroidX (see https://developer.android.com/jetpack/androidx/migrate for more info).
@@ -136,8 +138,8 @@ Command
 [INFO]   [GRADLE] releaseRuntimeClasspath -> com.salesforce.service:chat-ui:4.3.4 -> com.salesforce.service:common-ui:8.0.6 -> com.android.support.constraint:constraint-layout:1.1.3 -> com.android.support.constraint:constraint-layout-solver:1.1.3
 [INFO]   [GRADLE] releaseRuntimeClasspath -> com.salesforce.service:chat-ui:4.3.4 -> com.android.support:multidex:1.0.3
 [INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:generateReleaseRFile UP-TO-DATE
 [INFO]   [GRADLE] > Task :module:javaPreCompileRelease UP-TO-DATE
-[INFO]   [GRADLE] > Task :module:kaptGenerateStubsReleaseKotlin
 [INFO]   [GRADLE] > Task :module:configureNdkBuildRelease
 [INFO]   [GRADLE] > Task :module:mergeReleaseJniLibFolders UP-TO-DATE
 [INFO]   [GRADLE] > Task :module:mergeReleaseShaders UP-TO-DATE
@@ -151,6 +153,7 @@ Command
 [INFO]   [GRADLE] > Task :module:writeReleaseAarMetadata UP-TO-DATE
 [INFO]   [GRADLE] > Task :module:mergeReleaseResources UP-TO-DATE
 [INFO]   [GRADLE] > Task :module:verifyReleaseResources SKIPPED
+[INFO]   [GRADLE] > Task :module:kaptGenerateStubsReleaseKotlin
 [INFO]   [GRADLE] 
 [INFO]   [GRADLE] > Task :module:kaptReleaseKotlin
 [INFO]   [GRADLE] [KrollBindingGen] Running Kroll binding generator.
@@ -180,9 +183,9 @@ Command
 [INFO]   [GRADLE] > Task :module:compileReleaseSources
 [INFO]   [GRADLE] > Task :module:assembleRelease
 [INFO]   [GRADLE] 
-[INFO]   [GRADLE] BUILD SUCCESSFUL in 12s
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 35s
 [INFO]   [GRADLE] 31 actionable tasks: 12 executed, 19 up-to-date
-[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@309f9797
+[INFO]   [GRADLE] Found task graph: org.gradle.execution.taskgraph.DefaultTaskExecutionGraph@5fba1c4a
 [INFO]   [GRADLE] Found 3 tasks.
 [INFO]   [GRADLE] generatePomFileForTitaniumPublicationPublication
 [INFO]   [GRADLE] publishTitaniumPublicationPublicationToMavenRepository
@@ -191,9 +194,9 @@ Command
 [INFO]   [GRADLE] > Task :module:publishTitaniumPublicationPublicationToMavenRepository
 [INFO]   [GRADLE] > Task :module:publish
 [INFO]   [GRADLE] 
-[INFO]   [GRADLE] BUILD SUCCESSFUL in 1s
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 2s
 [INFO]   [GRADLE] 2 actionable tasks: 2 executed
 [INFO]   Packaging the module
 [INFO]   Creating module zip
-[INFO]   Writing module zip: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/dist/com.inzori.salesforcechat-android-1.0.3.zip
-[INFO]   Project built successfully in 15s 792ms
+[INFO]   Writing module zip: /Users/fabi/Workspace/Titanium/Fluid/Salesforce-Chat/android/dist/com.inzori.salesforcechat-android-1.0.4.zip
+[INFO]   Project built successfully in 39s 546ms
