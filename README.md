@@ -69,4 +69,6 @@ Launch standard Live Chat UI:
     	createSalesforceCase,
     	debug
     });
+    
+![RPReplay_Final1675190124](https://user-images.githubusercontent.com/1564477/215880815-ca8e7d4c-15e2-470f-867a-111ba45b593c.gif)
 
