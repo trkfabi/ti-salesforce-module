@@ -42,13 +42,14 @@ import com.salesforce.android.chat.ui.ChatUI;
 import com.salesforce.android.chat.ui.ChatUIClient;
 import com.salesforce.android.chat.ui.ChatEventListener;
 
+
+
 @Kroll.module(name="SalesforceChat", id="com.inzori.salesforcechat")
 public class SalesforceChatModule extends KrollModule
 {
 	// Standard Debugging variables
 	private static final String LCAT = "SalesforceChatModule";
-	private static TiApplication mApp;
-
+	private static ChatUIClient globalChatUIClient;
 	public SalesforceChatModule()
 	{
 		super();
@@ -235,12 +236,33 @@ public class SalesforceChatModule extends KrollModule
 						chatUIClient.addSessionInfoListener(sessionInfoListener);
 		
 						chatUIClient.startChatSession(TiApplication.getAppCurrentActivity());
+
+						globalChatUIClient = chatUIClient;
 					}
 			});		
 			
 		}  catch (Exception e) {
 			Log.e(LCAT, "error" , e);
 		}
+	}
+
+	@Kroll.method
+	public void dismissChat() {
+		if (globalChatUIClient != null) {
+			globalChatUIClient.endChatSession();
+		}
+	}
+	@Kroll.method
+	public void minimize() {
+		if (globalChatUIClient != null) {
+			globalChatUIClient.minimize();
+		}		
+	}
+	@Kroll.method
+	public void maximize() {
+		if (globalChatUIClient != null) {
+			globalChatUIClient.maximize();
+		}		
 	}
 
 	public class MySessionStateListener implements SessionStateListener{
