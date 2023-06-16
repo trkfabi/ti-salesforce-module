@@ -8,6 +8,28 @@ It allows you to use the Embedded Service Chat from Salesforce (Einstein bots an
 
 This module is a start point. It was created with a specific use case in mind, but I hope it may help if you need to support ESC or more complex Salesforce features. 
 
+# Setup
+
+## iOS
+
+* Only necessary to production builds *
+
+1. Create a new folder `scripts/` in your project root
+2. Copy the `salesforce-strip-framework` shell files from this repo's `ios/helper/` directory to `scripts/` in your project
+
+## Android
+
+1. Create a new file `build.gradle` in the folder `app/platform/android` of your project.
+2. Add these lines to the file: 
+
+```repositories {
+    google()
+    mavenCentral()
+    maven {
+      url 'https://s3.amazonaws.com/salesforcesos.com/android/maven/release'
+    }
+}```
+
 # Use the module
 
     const SFChat = require('com.inzori.salesforcechat');
