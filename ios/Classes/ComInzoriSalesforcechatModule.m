@@ -52,23 +52,21 @@
   NSString *deploymentId = [TiUtils stringValue:@"deploymentId" properties:args];
   NSString *buttonId = [TiUtils stringValue:@"buttonId" properties:args];
 
-  NSString *cpf = [TiUtils stringValue:@"cpf" properties:args def:@""];
   NSString *firstName = [TiUtils stringValue:@"firstName" properties:args def:@""];
-  NSString *channel = [TiUtils stringValue:@"channel" properties:args def:@""];
-  NSString *contactOrigin = [TiUtils stringValue:@"contactOrigin" properties:args def:@""];
-  NSString *chatOrigin = [TiUtils stringValue:@"chatOrigin" properties:args def:@""];
-  NSString *originQueue = [TiUtils stringValue:@"originQueue" properties:args def:@""];
-  NSString *product = [TiUtils stringValue:@"product" properties:args def:@""];
-  NSString *customerId = [TiUtils stringValue:@"customerId" properties:args def:@""];
-  NSString *customerDoc = [TiUtils stringValue:@"customerDoc" properties:args def:@""];
+  NSString *lastName = [TiUtils stringValue:@"lastName" properties:args def:@""];
+  NSString *email = [TiUtils stringValue:@"email" properties:args def:@""];
+  NSString *subject = [TiUtils stringValue:@"subject" properties:args def:@""];
+  NSString *phone = [TiUtils stringValue:@"phone" properties:args def:@""];
+  NSString *caseOrigin = [TiUtils stringValue:@"caseOrigin" properties:args def:@""];
     
   BOOL defaultToMinimized = [TiUtils boolValue:@"defaultToMinimized" properties:args def:YES];
   BOOL allowMinimization = [TiUtils boolValue:@"allowMinimization" properties:args def:YES];
   BOOL allowURLPreview = [TiUtils boolValue:@"allowURLPreview" properties:args def:YES];
   BOOL showPrechatFields = [TiUtils boolValue:@"showPrechatFields" properties:args def:NO];
+  BOOL createSalesforceCase = [TiUtils boolValue:@"createSalesforceCase" properties:args def:NO];
   BOOL debug = [TiUtils boolValue:@"debug" properties:args def:NO];
   
-   NSLog(@"[WARN] %@", args);
+//    NSLog(@"[WARN] %@", args);
 //  NSLog(@"[WARN] FirstName: %@ - LastName: %@ - Email: %@ - Phone: %@ - Subject: %@ - Origin: %@",
 //        firstName, lastName, email, phone, subject, caseOrigin);
     
@@ -84,7 +82,7 @@
                                               buttonId:buttonId
     ];
 
-  config.visitorName = [NSString stringWithFormat:@"%@", firstName];                                  
+  config.visitorName = [NSString stringWithFormat:@"%@ %@", firstName, lastName];                                  
   config.defaultToMinimized = defaultToMinimized;
   config.allowURLPreview = allowURLPreview;
   config.allowMinimization = allowMinimization;
@@ -92,121 +90,101 @@
   //config.queueStyle = SCSChatConfigurationQueueStyleEstimatedWaitTime;
 
   // Create pre-chat fields
-  SCSPrechatObject* cpfField = [[SCSPrechatObject alloc] 
-                                    initWithLabel:@"CPF"
-                                    value:cpf];
-  SCSPrechatObject* channelField = [[SCSPrechatObject alloc] 
-                                    initWithLabel:@"Channel"
-                                    value:channel];                                    
-  SCSPrechatObject* contactOriginField = [[SCSPrechatObject alloc] 
-                                    initWithLabel:@"ContactOrigin"
-                                    value:contactOrigin];
-  SCSPrechatObject* chatOriginField = [[SCSPrechatObject alloc] 
-                                    initWithLabel:@"ChatOrigin"
-                                    value:chatOrigin];
-  SCSPrechatObject* originQueueField = [[SCSPrechatObject alloc] 
-                                    initWithLabel:@"OriginQueue"
-                                    value:originQueue];                                    
-  SCSPrechatObject* productField = [[SCSPrechatObject alloc] 
-                                    initWithLabel:@"BU"
-                                    value:product];
-  SCSPrechatObject* customerIdField = [[SCSPrechatObject alloc] 
-                                    initWithLabel:@"CustomerId"
-                                    value:customerId];
-  SCSPrechatObject* customerDocField = [[SCSPrechatObject alloc] 
-                                    initWithLabel:@"CustomerDoc"
-                                    value:customerDoc];
-
+  SCSPrechatObject* firstNameField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"First Name"
+                                    value:firstName];
+  SCSPrechatObject* lastNameField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"Last Name"
+                                    value:lastName];                                    
+  SCSPrechatObject* emailField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"Email"
+                                    value:email];
+  SCSPrechatObject* subjectField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"Subject"
+                                    value:subject];
+  SCSPrechatObject* phoneField = [[SCSPrechatObject alloc] 
+                                    initWithLabel:@"Phone"
+                                    value:phone];
+  SCSPrechatObject* originField = [[SCSPrechatObject alloc]
+                                      initWithLabel:@"Case Origin"
+                                      value:caseOrigin];
   // Create entity fields
-  SCSPrechatEntityField* cpfEntityField = [[SCSPrechatEntityField alloc]
-    initWithFieldName:@"Numdoc__c" label:@"CPF"];
-  cpfEntityField.doFind = YES;
-  cpfEntityField.isExactMatch = YES;
-  cpfEntityField.doCreate = NO;
+  SCSPrechatEntityField* firstNameEntityField = [[SCSPrechatEntityField alloc]
+    initWithFieldName:@"FirstName" label:@"First Name"];
+  firstNameEntityField.doFind = YES;
+  firstNameEntityField.doCreate = YES;
+  firstNameEntityField.isExactMatch = YES;
 
-  SCSPrechatEntityField* channelEntityField = [[SCSPrechatEntityField alloc]
-    initWithFieldName:@"Channel__c" label:@"Channel"];
-  channelEntityField.doFind = NO;
-  channelEntityField.isExactMatch = NO;
-  channelEntityField.doCreate = YES;
+  SCSPrechatEntityField* lastNameEntityField = [[SCSPrechatEntityField alloc]
+    initWithFieldName:@"LastName" label:@"Last Name"];
+  lastNameEntityField.doFind = YES;
+  lastNameEntityField.doCreate = YES;
+  lastNameEntityField.isExactMatch = YES;
 
-  SCSPrechatEntityField* contactOriginEntityField = [[SCSPrechatEntityField alloc]
-    initWithFieldName:@"ContactOrigin__c" label:@"ContactOrigin"];
-  contactOriginEntityField.doFind = NO;
-  contactOriginEntityField.isExactMatch = NO;
-  contactOriginEntityField.doCreate = YES;
+  SCSPrechatEntityField* emailEntityField = [[SCSPrechatEntityField alloc]
+    initWithFieldName:@"Email" label:@"Email"];
+  emailEntityField.doFind = YES;
+  emailEntityField.doCreate = YES;
+  emailEntityField.isExactMatch = YES;
 
-  SCSPrechatEntityField* chatOriginEntityField = [[SCSPrechatEntityField alloc]
-    initWithFieldName:@"ChatOrigin__c" label:@"ChatOrigin"];
-  chatOriginEntityField.doFind = NO;
-  chatOriginEntityField.isExactMatch = NO;
-  chatOriginEntityField.doCreate = YES;
-
-  SCSPrechatEntityField* originQueueEntityField = [[SCSPrechatEntityField alloc]
-    initWithFieldName:@"OriginQueue__c" label:@"OriginQueue"];
-  originQueueEntityField.doFind = NO;
-  originQueueEntityField.isExactMatch = NO;
-  originQueueEntityField.doCreate = YES;
-
-  SCSPrechatEntityField* productEntityField = [[SCSPrechatEntityField alloc]
-    initWithFieldName:@"BU__c" label:@"BU"];
-  productEntityField.doFind = NO;
-  productEntityField.isExactMatch = NO;
-  productEntityField.doCreate = YES;
-
-  SCSPrechatEntityField* customerIdEntityField = [[SCSPrechatEntityField alloc]
-    initWithFieldName:@"Customer__c" label:@"CustomerId"];
-  customerIdEntityField.doFind = NO;
-  customerIdEntityField.isExactMatch = NO;
-  customerIdEntityField.doCreate = YES;
-
-  SCSPrechatEntityField* customerDocEntityField = [[SCSPrechatEntityField alloc]
-    initWithFieldName:@"NumeroDocumento__c" label:@"CustomerDoc"];
-  customerDocEntityField.doFind = NO;
-  customerDocEntityField.isExactMatch = NO;
-  customerDocEntityField.doCreate = YES;
-
+  SCSPrechatEntityField* phoneEntityField = [[SCSPrechatEntityField alloc]
+    initWithFieldName:@"Phone" label:@"Phone"];
+  phoneEntityField.doFind = NO;
+  phoneEntityField.doCreate = NO;
+  phoneEntityField.isExactMatch = NO;
+    
   // Create an entity object
-  SCSPrechatEntity* accountEntity = [[SCSPrechatEntity alloc]
-                                    initWithEntityName:@"Account"];
-  accountEntity.saveToTranscript = @"AccountId";
+  SCSPrechatEntity* contactEntity = [[SCSPrechatEntity alloc]
+                                    initWithEntityName:@"Contact"];
+  contactEntity.saveToTranscript = @"Contact";
+  contactEntity.linkToEntityName = @"Case";
+  contactEntity.linkToEntityField = @"ContactId";                                  
+  contactEntity.showOnCreate = YES;
 
-  // Create an entity mapping for a Account record type
-  [accountEntity.entityFieldsMaps addObject:cpfEntityField];
+  // Create an entity mapping for a Contact record type
+  [contactEntity.entityFieldsMaps addObject:firstNameEntityField];
+  [contactEntity.entityFieldsMaps addObject:lastNameEntityField];
+  [contactEntity.entityFieldsMaps addObject:emailEntityField];
+  [contactEntity.entityFieldsMaps addObject:phoneEntityField];
 
-  // Create an entity object
-  SCSPrechatEntity* protocolEntity = [[SCSPrechatEntity alloc]
-                                    initWithEntityName:@"Protocolo__c"];
-  protocolEntity.saveToTranscript = @"Protocol__c";                           
-  protocolEntity.showOnCreate = YES;
+  if (createSalesforceCase) {
+      // Create an entity mapping for a Case record type
+      SCSPrechatEntity* caseEntity = [[SCSPrechatEntity alloc]
+                                      initWithEntityName:@"Case"];
+      caseEntity.saveToTranscript = @"Case";
+      caseEntity.showOnCreate = YES;
+      
+      // Add one field mappings to our Case entity
+      SCSPrechatEntityField* subjectEntityField = [[SCSPrechatEntityField alloc]
+                                                   initWithFieldName:@"Subject" label:@"Subject"];
+      subjectEntityField.doCreate = YES;
+      [caseEntity.entityFieldsMaps addObject:subjectEntityField];
+      
+      SCSPrechatEntityField* originEntityField = [[SCSPrechatEntityField alloc]
+                                                  initWithFieldName:@"Origin" label:@"Case Origin"];
+      originEntityField.doCreate = YES;
+      [caseEntity.entityFieldsMaps addObject:originEntityField];
+      
+      // Update config object with the entity mappings
+      config.prechatEntities = @[contactEntity, caseEntity];
 
-  // Create an entity mapping for a Protocol record type
-  [protocolEntity.entityFieldsMaps addObject:channelEntityField];
-  [protocolEntity.entityFieldsMaps addObject:contactOriginEntityField];
-  [protocolEntity.entityFieldsMaps addObject:chatOriginEntityField];
-  [protocolEntity.entityFieldsMaps addObject:originQueueEntityField];
-  [protocolEntity.entityFieldsMaps addObject:productEntityField];
-  [protocolEntity.entityFieldsMaps addObject:customerIdEntityField];
-  [protocolEntity.entityFieldsMaps addObject:customerDocEntityField];
-
-  // Update config object with the entity mappings
-  config.prechatEntities = @[accountEntity, protocolEntity];
+  } else {
+    // Update config object with the entity mappings
+    config.prechatEntities = @[contactEntity];
+  }
 
   // Update config object with the pre-chat fields
-  NSMutableArray<SCSPrechatObject *> *preChatFields = [NSMutableArray new];
-  [preChatFields addObject:cpfField];
-  [preChatFields addObject:channelField];
-  [preChatFields addObject:contactOriginField];
-  [preChatFields addObject:chatOriginField];
-  [preChatFields addObject:originQueueField];
-  [preChatFields addObject:productField];
-  [preChatFields addObject:customerIdField];
-  [preChatFields addObject:customerDocField];
-  config.prechatFields = preChatFields;
+    NSMutableArray<SCSPrechatObject *> *preChatFields = [NSMutableArray new];
+    [preChatFields addObject:firstNameField];
+    [preChatFields addObject:lastNameField];
+    [preChatFields addObject:emailField];
+    [preChatFields addObject:phoneField];
+    [preChatFields addObject:subjectField];
+    [preChatFields addObject:originField];
+    config.prechatFields = preChatFields;
+  //config.prechatFields = @[firstNameField, lastNameField, emailField, phoneField, subjectField, originField];
 
-  //config.prechatFields = @[cpfField, channelField, contactOriginField, chatOriginField, originQueueField, productField, customerIdField];
-
-  //NSLog(@"[WARN] config: %@", config.prechatFields);em
+    //NSLog(@"[WARN] config: %@", config.prechatFields);em
     
   SCAppearanceConfiguration *appearance = [SCAppearanceConfiguration new];
   [appearance setColor:[self colorFromHexString:@"#FFFFFF"]

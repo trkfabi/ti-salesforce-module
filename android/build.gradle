@@ -7,16 +7,10 @@ repositories {
     }
     maven {
       url 'https://tokbox.bintray.com/maven/'
-    }
+    } 
 }
-
-android {
-  compileSdkVersion 34
-}
-
 dependencies {
-  implementation "com.salesforce.service:chat-ui:4.3.6"
-  // implementation "com.salesforce.service:servicesdk:224.2.7"
+  implementation "com.salesforce.service:chat-ui:4.3.4"
 }
 
 gradle.taskGraph.whenReady {taskGraph ->
@@ -29,7 +23,7 @@ gradle.taskGraph.whenReady {taskGraph ->
           task.enabled = false
         }
         // task.doFirst {
-        //   replaceResource()
+        //   replaceResource()  
         // }
     }
 }
@@ -43,3 +37,4 @@ ext.replaceResource = { ->
     println "replaced"
   }
 }
+

@@ -42,7 +42,7 @@ import com.salesforce.android.chat.ui.ChatUI;
 import com.salesforce.android.chat.ui.ChatUIClient;
 import com.salesforce.android.chat.ui.ChatEventListener;
 
-// import com.salesforce.android.service.common.utilities.logging.ServiceLogging;
+
 
 @Kroll.module(name="SalesforceChat", id="com.inzori.salesforcechat")
 public class SalesforceChatModule extends KrollModule
@@ -59,34 +59,29 @@ public class SalesforceChatModule extends KrollModule
 	public static void onAppCreate(TiApplication app)
 	{
 		Log.w(LCAT, "inside onAppCreate");
+
 	}
 
 	@Kroll.method
 	public void launchChat(KrollDict args) {
-
-		Log.d(LCAT, "args: " + args.toString());
 		
 		String ORG_ID = "";
 		String DEPLOYMENT_ID = "";
 		String BUTTON_ID = "";
 		String LIVE_AGENT_POD = ""; 
 
-		String cpf = "";
 		String firstName = "";
-		String channel = "";
-		String contactOrigin = "";
-		String chatOrigin = "";
-		String originQueue = "";
-		String product = ""; //BU
-
-		String customerId = "";
-		String customerDoc = "";
+		String lastName = "";
+		String email = "";
+		String subject = "";
+		String phone = "";
+		String origin = "";
 
 		boolean defaultToMinimized = true;
 		boolean allowMinimization = true;
 		boolean allowURLPreview = true;
 		boolean showPrechatFields = false;
-		// boolean debug = false;
+		boolean createSalesforceCase = false;
 
 		// Ti events "salesforce_chat:session_error", "salesforce_chat:session_end", "salesforce_chat:session_state""
 		try {
@@ -101,35 +96,26 @@ public class SalesforceChatModule extends KrollModule
 			} else return;
 			if(args.containsKey("podName")){
 				LIVE_AGENT_POD = args.getString("podName");
-			} else return;
-			if(args.containsKey("cpf")){
-				cpf = args.getString("cpf");
-			} else return;
+			}	else return;
 
 			if(args.containsKey("firstName")){
 				firstName = args.getString("firstName");
-			}		
-			if(args.containsKey("channel")){
-				channel = args.getString("channel");
-			}		
-			if(args.containsKey("contactOrigin")){
-				contactOrigin = args.getString("contactOrigin");
-			}		
-			if(args.containsKey("chatOrigin")){
-				chatOrigin = args.getString("chatOrigin");
-			}		
-			if(args.containsKey("originQueue")){
-				originQueue = args.getString("originQueue");
-			}		
-			if(args.containsKey("product")){
-				product = args.getString("product");
-			}	
-			if(args.containsKey("customerId")){
-				customerId = args.getString("customerId");
-			}	
-			if(args.containsKey("customerDoc")){
-				customerDoc = args.getString("customerDoc");
-			}					
+			}
+			if (args.containsKey("lastName")) {
+				lastName = args.getString("lastName");
+			}
+			if(args.containsKey("email")){
+				email = args.getString("email");
+			}
+			if(args.containsKey("phone")){
+				phone = args.getString("phone");
+			}
+			if(args.containsKey("subject")){
+				subject = args.getString("subject");
+			}
+			if(args.containsKey("caseOrigin")){
+				origin = args.getString("caseOrigin");
+			}			
 
 			if(args.containsKey("defaultToMinimized")){
 				defaultToMinimized = TiConvert.toBoolean(args.getString("defaultToMinimized"));
@@ -143,66 +129,69 @@ public class SalesforceChatModule extends KrollModule
 			if(args.containsKey("showPrechatFields")){
 				showPrechatFields = TiConvert.toBoolean(args.getString("showPrechatFields"));
 			}
-			// if(args.containsKey("debug")){
-			// 	debug = TiConvert.toBoolean(args.getString("debug"));
-			// }
+			if(args.containsKey("createSalesforceCase")){
+				createSalesforceCase = TiConvert.toBoolean(args.getString("createSalesforceCase"));
+			}
 
-			// if (debug) {
-			// 	ServiceLogging.addSink(ServiceLogging.LOG_CAT_SINK);
-			// 	ServiceLogging.setLogLevel(ServiceLogging.LEVEL_TRACE);
-			// }
+			// Create some hidden fields with specific values
+			ChatUserData firstNameData = new ChatUserData(
+			"FirstName", firstName, true);
+			ChatUserData lastNameData = new ChatUserData(
+			"LastName", lastName, true);
+			ChatUserData emailData = new ChatUserData(
+			"Email", email, true);
+			ChatUserData subjectData = new ChatUserData(
+			"Subject", subject, true);
+			ChatUserData phoneData = new ChatUserData(
+			"Phone", phone, true);
+			ChatUserData originData = new ChatUserData(
+			"Origin", origin, true);
 
-			ChatUserData cpfData = new ChatUserData("CPF", cpf, true);
-			ChatUserData channelData = new ChatUserData("Channel", channel, true);
-			ChatUserData contactOriginData = new ChatUserData("ContactOrigin", contactOrigin, true);
-			ChatUserData chatOriginData = new ChatUserData("ChatOrigin", chatOrigin, true);
-			ChatUserData originQueueData = new ChatUserData("OriginQueue", originQueue, true);
-			ChatUserData productData = new ChatUserData("BU", product, true);
-			ChatUserData customerIdData = new ChatUserData("CustomerId", customerId, true);
-			ChatUserData customerDocData = new ChatUserData("CustomerDoc", customerDoc, true);
+			// Map Subject to a field in a Case record
+			ChatEntity caseEntity = new ChatEntity.Builder()
+			.showOnCreate(true)
+			.linkToTranscriptField("Case")
+			.addChatEntityField(
+				new ChatEntityField.Builder()
+					.doCreate(true)
+					.build("Subject", subjectData))
+			.addChatEntityField(
+				new ChatEntityField.Builder()
+					.doCreate(true)
+					.build("Origin", originData))					
+			.build("Case");
+		
 
-			ChatEntity accountEntity = new ChatEntity.Builder()
-			.linkToTranscriptField("AccountId")
+			// Map FirstName, LastName, and Email to fields in a Contact record
+			ChatEntity contactEntity = new ChatEntity.Builder()
+			.showOnCreate(true)
+			.linkToTranscriptField("Contact")
+			.linkToAnotherSalesforceObject(caseEntity, "ContactId")
 			.addChatEntityField(
 			new ChatEntityField.Builder()
 					.doFind(true)
 					.isExactMatch(true)
-					.doCreate(false)
-					.build("Numdoc__c", cpfData))
-			.build("Account");
-
-			ChatEntity protocolEntity = new ChatEntity.Builder()
-			.showOnCreate(true)
-			.linkToTranscriptField("Protocol__c")
+					.doCreate(true)
+					.build("FirstName", firstNameData))
 			.addChatEntityField(
 			new ChatEntityField.Builder()
+					.doFind(true)
+					.isExactMatch(true)
 					.doCreate(true)
-					.build("Channel__c", channelData))
+					.build("LastName", lastNameData))
 			.addChatEntityField(
 			new ChatEntityField.Builder()
+					.doFind(true)
+					.isExactMatch(true)
 					.doCreate(true)
-					.build("ContactOrigin__c", contactOriginData))
+					.build("Email", emailData))
 			.addChatEntityField(
-			new ChatEntityField.Builder()
-					.doCreate(true)
-					.build("ChatOrigin__c", chatOriginData))
-			.addChatEntityField(
-			new ChatEntityField.Builder()
-					.doCreate(true)
-					.build("OriginQueue__c", originQueueData))
-			.addChatEntityField(
-			new ChatEntityField.Builder()
-					.doCreate(true)
-					.build("BU__c", productData))
-			.addChatEntityField(
-            new ChatEntityField.Builder()
-                    .doCreate(true)
-                    .build("Customer__c", customerIdData))
-			.addChatEntityField(
-			new ChatEntityField.Builder()
-					.doCreate(true)
-					.build("NumeroDocumento__c", customerDocData))
-			.build("Protocolo__c");
+				new ChatEntityField.Builder()
+						.doFind(false)
+						.isExactMatch(false)
+						.doCreate(false)
+						.build("Phone", phoneData))					
+			.build("Contact");
 
 			// Create the chat configuration builder
 			final ChatConfiguration.Builder chatConfigurationBuilder = new ChatConfiguration.Builder(
@@ -212,11 +201,17 @@ public class SalesforceChatModule extends KrollModule
 				LIVE_AGENT_POD
 			);
 
-			chatConfigurationBuilder
-			.visitorName(firstName)
-			.chatUserData(cpfData, channelData, contactOriginData, chatOriginData, originQueueData, productData, customerIdData, customerDocData)
-			.chatEntities(accountEntity, protocolEntity);					
-					
+			// Add user data and entities
+			if (createSalesforceCase) {
+				chatConfigurationBuilder
+				.chatUserData(firstNameData, lastNameData, emailData, phoneData, subjectData, originData)
+				.chatEntities(caseEntity, contactEntity);			
+			} else {
+				chatConfigurationBuilder
+				.chatUserData(firstNameData, lastNameData, emailData, phoneData, subjectData)
+				.chatEntities(contactEntity);					
+			}			
+
 			// Build the chat configuration object
 			ChatConfiguration chatConfiguration = chatConfigurationBuilder.build();
 
@@ -227,6 +222,7 @@ public class SalesforceChatModule extends KrollModule
 				.enableHyperlinkPreview(allowURLPreview)
 				.chatEventListener(new MyEventListener());
 				
+
 			ChatUI.configure(uiConfig.build())
 				.createClient(TiApplication.getInstance().getApplicationContext())
 				.onResult(new Async.ResultHandler<ChatUIClient>() {
